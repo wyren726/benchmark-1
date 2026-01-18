@@ -1,0 +1,23 @@
+conda activate simie
+
+/home/wyren/.cache/huggingface/hub/models--meta-llama--Llama-2-7b/snapshots/69656aac4cb47911a639f5890ff35b41ceb82e98
+
+CUDA_VISIBLE_DEVICES=0 python /home/wyren/Knowledge-Editing-Benchmark/methods/6SimIE/main_lifelong.py \
+    --editing_method MEMIT \
+    --model_name llama-7b \
+    --data_type ZsRE \
+    --simIE \
+    --lamHyper 10 \
+    > /home/wyren/Knowledge-Editing-Benchmark/methods/6SimIE/wyren/logs/main_lifelong_MEMIT_llama-7b_ZsRE_simIE_10.log 2>&1
+
+CUDA_VISIBLE_DEVICES=0 WANDB_MODE=offline python /home/wyren/Knowledge-Editing-Benchmark/methods/6SimIE/main_lifelong.py \
+    --editing_method MEMIT \
+    --model_name llama-7b \
+    --data_type ZsRE \
+    --simIE \
+    --lamHyper 10 \
+    > /home/wyren/Knowledge-Editing-Benchmark/methods/6SimIE/wyren/logs/main_lifelong_MEMIT_llama-7b_ZsRE_simIE_10.log 2>&1
+
+
+python /home/wyren/Knowledge-Editing-Benchmark/methods/6SimIE/wyren/notebooks/wandb_demo.py > /home/wyren/Knowledge-Editing-Benchmark/methods/6SimIE/wyren/logs/wandb_demo.log 
+2>&1

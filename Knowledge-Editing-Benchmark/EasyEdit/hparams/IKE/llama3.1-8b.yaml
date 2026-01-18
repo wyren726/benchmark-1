@@ -1,0 +1,10 @@
+alg_name: "IKE"
+# model_name: "/mnt/geminisgceph1/geminicephfs/mmsearch-luban-universal/group_semantic/user_mylasong/models/Llama-3.1-8B-Instruct"
+model_name: "/home/wyren/.cache/huggingface/hub/models--meta-llama--Llama-3.1-8B-Instruct/snapshots/0e9e39f249a16976918f6564b8830bc894c89659"
+# sentence_model_name: "/mnt/geminisgceph1/geminicephfs/mmsearch-luban-universal/group_semantic/user_mylasong/models/all-MiniLM-L6-v2"
+sentence_model_name: "/home/wyren/.cache/huggingface/hub/models--sentence-transformers--all-MiniLM-L6-v2/snapshots/c9745ed1d9f207416be6d2e6f8de32d1f16199bf"
+device: 0
+results_dir: "./results"
+
+k: 16
+model_parallel: false

@@ -1,0 +1,650 @@
+/home/wyren/miniconda3/envs/easyedit2/lib/python3.10/site-packages/timm/models/hub.py:4: FutureWarning: Importing from timm.models.hub is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/home/wyren/miniconda3/envs/easyedit2/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wyren/miniconda3/envs/easyedit2/lib/python3.10/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+  0%|          | 0/1301 [00:00<?, ?it/s]  0%|          | 1/1301 [00:00<04:34,  4.74it/s]  1%|          | 11/1301 [00:00<00:30, 41.94it/s]  2%|▏         | 20/1301 [00:00<00:21, 58.86it/s]  2%|▏         | 29/1301 [00:00<00:18, 67.84it/s]  3%|▎         | 38/1301 [00:00<00:17, 73.76it/s]  4%|▎         | 47/1301 [00:00<00:16, 77.92it/s]  4%|▍         | 56/1301 [00:01<00:29, 42.23it/s]  5%|▍         | 64/1301 [00:01<00:25, 48.32it/s]  6%|▌         | 73/1301 [00:01<00:21, 56.52it/s]  6%|▋         | 83/1301 [00:01<00:18, 64.96it/s]  7%|▋         | 93/1301 [00:01<00:16, 72.05it/s]  8%|▊         | 102/1301 [00:01<00:15, 75.81it/s]  9%|▊         | 111/1301 [00:01<00:15, 78.42it/s]  9%|▉         | 120/1301 [00:01<00:16, 69.96it/s] 10%|▉         | 128/1301 [00:02<00:28, 41.49it/s] 11%|█         | 137/1301 [00:02<00:23, 49.15it/s] 11%|█▏        | 147/1301 [00:02<00:19, 58.01it/s] 12%|█▏        | 157/1301 [00:02<00:17, 66.44it/s] 13%|█▎        | 167/1301 [00:02<00:15, 73.22it/s] 14%|█▎        | 176/1301 [00:02<00:14, 76.12it/s] 14%|█▍        | 185/1301 [00:02<00:14, 77.92it/s] 15%|█▍        | 194/1301 [00:03<00:14, 77.92it/s] 16%|█▌        | 203/1301 [00:03<00:15, 70.45it/s] 16%|█▋        | 212/1301 [00:03<00:14, 73.44it/s] 17%|█▋        | 220/1301 [00:03<00:14, 75.04it/s] 18%|█▊        | 229/1301 [00:03<00:13, 78.67it/s] 18%|█▊        | 238/1301 [00:03<00:13, 80.77it/s] 19%|█▉        | 247/1301 [00:03<00:12, 82.49it/s] 20%|█▉        | 256/1301 [00:03<00:12, 82.83it/s] 20%|██        | 265/1301 [00:03<00:12, 83.91it/s] 21%|██        | 274/1301 [00:04<00:12, 84.69it/s] 22%|██▏       | 283/1301 [00:04<00:11, 85.43it/s] 22%|██▏       | 292/1301 [00:04<00:11, 85.45it/s] 23%|██▎       | 301/1301 [00:04<00:11, 85.73it/s] 24%|██▍       | 310/1301 [00:04<00:11, 86.18it/s] 25%|██▍       | 319/1301 [00:04<00:11, 85.63it/s] 25%|██▌       | 328/1301 [00:04<00:15, 61.09it/s] 26%|██▌       | 336/1301 [00:05<00:25, 38.60it/s] 26%|██▋       | 342/1301 [00:05<00:29, 32.46it/s] 27%|██▋       | 347/1301 [00:05<00:31, 30.56it/s] 27%|██▋       | 353/1301 [00:05<00:27, 34.15it/s] 28%|██▊       | 358/1301 [00:06<00:29, 31.86it/s] 28%|██▊       | 362/1301 [00:06<00:34, 27.52it/s] 28%|██▊       | 366/1301 [00:06<00:38, 24.09it/s] 28%|██▊       | 369/1301 [00:06<00:41, 22.56it/s] 29%|██▉       | 376/1301 [00:06<00:29, 30.93it/s] 30%|██▉       | 384/1301 [00:06<00:22, 40.45it/s] 30%|███       | 392/1301 [00:06<00:19, 47.80it/s] 31%|███       | 400/1301 [00:07<00:16, 54.62it/s] 31%|███▏      | 408/1301 [00:07<00:14, 60.21it/s] 32%|███▏      | 416/1301 [00:07<00:13, 64.80it/s] 33%|███▎      | 425/1301 [00:07<00:12, 69.38it/s] 33%|███▎      | 434/1301 [00:07<00:11, 72.75it/s] 34%|███▍      | 444/1301 [00:07<00:10, 78.12it/s] 35%|███▍      | 454/1301 [00:07<00:10, 82.28it/s] 36%|███▌      | 464/1301 [00:07<00:09, 85.23it/s] 36%|███▋      | 474/1301 [00:07<00:09, 87.43it/s] 37%|███▋      | 484/1301 [00:08<00:09, 89.40it/s] 38%|███▊      | 493/1301 [00:08<00:09, 88.68it/s] 39%|███▊      | 503/1301 [00:08<00:08, 90.10it/s] 39%|███▉      | 513/1301 [00:08<00:08, 91.17it/s] 40%|████      | 523/1301 [00:08<00:08, 90.46it/s] 41%|████      | 533/1301 [00:08<00:08, 86.48it/s] 42%|████▏     | 542/1301 [00:08<00:08, 85.67it/s] 42%|████▏     | 551/1301 [00:08<00:08, 85.21it/s] 43%|████▎     | 560/1301 [00:08<00:08, 85.19it/s] 44%|████▎     | 569/1301 [00:09<00:09, 81.32it/s] 44%|████▍     | 578/1301 [00:09<00:15, 46.14it/s] 45%|████▍     | 585/1301 [00:09<00:19, 37.11it/s] 45%|████▌     | 591/1301 [00:10<00:21, 33.23it/s] 46%|████▌     | 596/1301 [00:10<00:23, 30.07it/s] 46%|████▌     | 600/1301 [00:10<00:25, 27.68it/s] 46%|████▋     | 604/1301 [00:10<00:26, 26.50it/s] 47%|████▋     | 607/1301 [00:10<00:27, 25.59it/s] 47%|████▋     | 610/1301 [00:10<00:27, 25.11it/s] 47%|████▋     | 613/1301 [00:10<00:27, 24.57it/s] 47%|████▋     | 616/1301 [00:11<00:27, 24.57it/s] 48%|████▊     | 619/1301 [00:11<00:27, 24.91it/s] 48%|████▊     | 622/1301 [00:11<00:27, 25.06it/s] 48%|████▊     | 625/1301 [00:11<00:25, 26.01it/s] 48%|████▊     | 628/1301 [00:11<00:25, 25.97it/s] 49%|████▊     | 631/1301 [00:11<00:25, 26.03it/s] 49%|████▊     | 634/1301 [00:11<00:24, 26.94it/s] 49%|████▉     | 638/1301 [00:11<00:23, 28.47it/s] 49%|████▉     | 641/1301 [00:12<00:23, 27.56it/s] 50%|████▉     | 644/1301 [00:12<00:25, 25.73it/s] 50%|████▉     | 647/1301 [00:12<00:26, 24.26it/s] 50%|████▉     | 650/1301 [00:12<00:25, 25.32it/s] 50%|█████     | 653/1301 [00:12<00:25, 25.53it/s] 50%|█████     | 656/1301 [00:12<00:24, 25.89it/s] 51%|█████     | 660/1301 [00:12<00:23, 27.56it/s] 51%|█████     | 663/1301 [00:12<00:24, 26.56it/s] 51%|█████     | 666/1301 [00:13<00:24, 26.27it/s] 51%|█████▏    | 669/1301 [00:13<00:23, 27.16it/s] 52%|█████▏    | 672/1301 [00:13<00:23, 26.94it/s] 52%|█████▏    | 675/1301 [00:13<00:22, 27.49it/s] 52%|█████▏    | 678/1301 [00:13<00:22, 27.61it/s] 52%|█████▏    | 681/1301 [00:13<00:22, 27.55it/s] 53%|█████▎    | 684/1301 [00:13<00:22, 26.98it/s] 53%|█████▎    | 691/1301 [00:13<00:16, 38.11it/s] 54%|█████▎    | 698/1301 [00:13<00:13, 45.54it/s] 54%|█████▍    | 705/1301 [00:13<00:11, 51.26it/s] 55%|█████▍    | 712/1301 [00:14<00:10, 55.18it/s] 55%|█████▌    | 719/1301 [00:14<00:10, 57.97it/s] 56%|█████▌    | 726/1301 [00:14<00:09, 59.78it/s] 56%|█████▋    | 733/1301 [00:14<00:09, 60.89it/s] 57%|█████▋    | 741/1301 [00:14<00:08, 64.76it/s] 58%|█████▊    | 749/1301 [00:14<00:08, 68.86it/s] 58%|█████▊    | 756/1301 [00:14<00:08, 60.67it/s] 59%|█████▊    | 763/1301 [00:14<00:09, 58.64it/s] 59%|█████▉    | 770/1301 [00:15<00:08, 60.12it/s] 60%|█████▉    | 777/1301 [00:15<00:09, 56.67it/s] 60%|██████    | 783/1301 [00:15<00:10, 48.90it/s] 61%|██████    | 793/1301 [00:15<00:08, 59.92it/s] 62%|██████▏   | 803/1301 [00:15<00:07, 68.92it/s] 62%|██████▏   | 813/1301 [00:15<00:06, 75.36it/s] 63%|██████▎   | 822/1301 [00:15<00:06, 77.89it/s] 64%|██████▍   | 831/1301 [00:15<00:05, 79.51it/s] 65%|██████▍   | 840/1301 [00:15<00:05, 80.72it/s] 65%|██████▌   | 849/1301 [00:16<00:05, 80.63it/s] 66%|██████▌   | 858/1301 [00:16<00:05, 76.01it/s] 67%|██████▋   | 866/1301 [00:16<00:07, 56.51it/s] 67%|██████▋   | 873/1301 [00:16<00:10, 42.53it/s] 68%|██████▊   | 879/1301 [00:16<00:11, 36.79it/s] 68%|██████▊   | 884/1301 [00:17<00:12, 32.78it/s] 68%|██████▊   | 888/1301 [00:17<00:12, 32.63it/s] 69%|██████▊   | 892/1301 [00:17<00:13, 31.04it/s] 69%|██████▉   | 896/1301 [00:17<00:13, 29.10it/s] 69%|██████▉   | 900/1301 [00:17<00:14, 27.45it/s] 69%|██████▉   | 903/1301 [00:17<00:14, 27.15it/s] 70%|██████▉   | 906/1301 [00:18<00:14, 26.67it/s] 70%|██████▉   | 909/1301 [00:18<00:14, 26.26it/s] 70%|███████   | 913/1301 [00:18<00:14, 27.33it/s] 70%|███████   | 916/1301 [00:18<00:13, 27.57it/s] 71%|███████   | 919/1301 [00:18<00:14, 26.09it/s] 71%|███████   | 922/1301 [00:18<00:14, 25.89it/s] 71%|███████   | 925/1301 [00:18<00:15, 24.52it/s] 71%|███████▏  | 928/1301 [00:18<00:15, 24.53it/s] 72%|███████▏  | 932/1301 [00:19<00:14, 26.05it/s] 72%|███████▏  | 935/1301 [00:19<00:13, 26.54it/s] 72%|███████▏  | 938/1301 [00:19<00:13, 26.73it/s] 72%|███████▏  | 941/1301 [00:19<00:13, 26.28it/s] 73%|███████▎  | 944/1301 [00:19<00:13, 25.65it/s] 73%|███████▎  | 947/1301 [00:19<00:14, 24.69it/s] 73%|███████▎  | 950/1301 [00:19<00:14, 24.66it/s] 73%|███████▎  | 953/1301 [00:19<00:14, 23.43it/s] 73%|███████▎  | 956/1301 [00:20<00:14, 23.69it/s] 74%|███████▎  | 959/1301 [00:20<00:14, 23.90it/s] 74%|███████▍  | 962/1301 [00:20<00:14, 23.94it/s] 74%|███████▍  | 965/1301 [00:20<00:14, 23.24it/s] 74%|███████▍  | 968/1301 [00:20<00:13, 24.33it/s] 75%|███████▍  | 971/1301 [00:20<00:13, 24.94it/s] 75%|███████▍  | 974/1301 [00:20<00:13, 24.20it/s] 75%|███████▌  | 977/1301 [00:20<00:13, 23.91it/s] 76%|███████▌  | 985/1301 [00:20<00:08, 37.28it/s] 76%|███████▋  | 994/1301 [00:21<00:06, 49.91it/s] 77%|███████▋  | 1002/1301 [00:21<00:05, 57.29it/s] 78%|███████▊  | 1011/1301 [00:21<00:04, 65.00it/s] 78%|███████▊  | 1021/1301 [00:21<00:03, 73.19it/s] 79%|███████▉  | 1031/1301 [00:21<00:03, 79.31it/s] 80%|████████  | 1041/1301 [00:21<00:03, 84.04it/s] 81%|████████  | 1051/1301 [00:21<00:02, 87.21it/s] 82%|████████▏ | 1061/1301 [00:21<00:02, 89.91it/s] 82%|████████▏ | 1071/1301 [00:21<00:02, 91.66it/s] 83%|████████▎ | 1081/1301 [00:22<00:02, 92.16it/s] 84%|████████▍ | 1091/1301 [00:22<00:02, 92.83it/s] 85%|████████▍ | 1101/1301 [00:22<00:02, 92.41it/s] 85%|████████▌ | 1111/1301 [00:22<00:02, 93.09it/s] 86%|████████▌ | 1121/1301 [00:22<00:01, 94.30it/s] 87%|████████▋ | 1131/1301 [00:22<00:01, 94.82it/s] 88%|████████▊ | 1141/1301 [00:22<00:01, 94.95it/s] 88%|████████▊ | 1151/1301 [00:22<00:01, 92.36it/s] 89%|████████▉ | 1161/1301 [00:22<00:01, 90.36it/s] 90%|█████████ | 1171/1301 [00:23<00:01, 87.95it/s] 91%|█████████ | 1180/1301 [00:23<00:01, 87.79it/s] 91%|█████████▏| 1189/1301 [00:23<00:01, 84.62it/s] 92%|█████████▏| 1198/1301 [00:23<00:01, 83.32it/s] 93%|█████████▎| 1207/1301 [00:23<00:01, 77.28it/s] 93%|█████████▎| 1215/1301 [00:23<00:01, 77.22it/s] 94%|█████████▍| 1223/1301 [00:23<00:01, 72.26it/s] 95%|█████████▍| 1231/1301 [00:24<00:01, 51.65it/s] 95%|█████████▌| 1238/1301 [00:24<00:02, 28.97it/s] 96%|█████████▌| 1243/1301 [00:24<00:02, 23.69it/s] 96%|█████████▌| 1247/1301 [00:25<00:02, 21.31it/s] 96%|█████████▌| 1251/1301 [00:25<00:02, 17.66it/s] 96%|█████████▋| 1254/1301 [00:25<00:02, 15.71it/s] 97%|█████████▋| 1257/1301 [00:26<00:03, 14.56it/s] 97%|█████████▋| 1259/1301 [00:26<00:03, 13.89it/s] 97%|█████████▋| 1261/1301 [00:26<00:03, 13.05it/s] 97%|█████████▋| 1263/1301 [00:26<00:02, 12.74it/s] 97%|█████████▋| 1265/1301 [00:26<00:02, 12.37it/s] 97%|█████████▋| 1267/1301 [00:26<00:02, 12.59it/s] 98%|█████████▊| 1269/1301 [00:27<00:02, 12.86it/s] 98%|█████████▊| 1271/1301 [00:27<00:02, 12.26it/s] 98%|█████████▊| 1273/1301 [00:27<00:02, 12.08it/s] 98%|█████████▊| 1275/1301 [00:27<00:01, 13.07it/s] 98%|█████████▊| 1277/1301 [00:27<00:01, 12.36it/s] 98%|█████████▊| 1279/1301 [00:27<00:01, 12.37it/s] 98%|█████████▊| 1281/1301 [00:28<00:01, 12.36it/s] 99%|█████████▊| 1283/1301 [00:28<00:01, 12.52it/s] 99%|█████████▉| 1285/1301 [00:28<00:01, 12.60it/s] 99%|█████████▉| 1287/1301 [00:28<00:01, 11.63it/s] 99%|█████████▉| 1289/1301 [00:28<00:00, 12.37it/s] 99%|█████████▉| 1291/1301 [00:28<00:00, 11.76it/s] 99%|█████████▉| 1293/1301 [00:29<00:00, 11.91it/s]100%|█████████▉| 1295/1301 [00:29<00:00, 11.83it/s]100%|█████████▉| 1297/1301 [00:29<00:00, 11.49it/s]100%|█████████▉| 1299/1301 [00:29<00:00, 12.29it/s]100%|██████████| 1301/1301 [00:29<00:00, 11.94it/s]100%|██████████| 1301/1301 [00:29<00:00, 43.73it/s]
+2025-12-31 16:50:09,775 - easyeditor.editors.editor - INFO - Instantiating model
+12/31/2025 16:50:09 - INFO - easyeditor.editors.editor -   Instantiating model
+`torch_dtype` is deprecated! Use `dtype` instead!
+这是data
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:06<00:18,  6.27s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:09<00:08,  4.37s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:11<00:03,  3.25s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.05s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:11<00:00,  2.86s/it]
+2025-12-31 16:50:21,913 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+12/31/2025 16:50:21 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to left...
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [10:36<1:35:27, 636.35s/it] 20%|██        | 2/10 [11:09<37:33, 281.70s/it]   30%|███       | 3/10 [11:47<19:53, 170.46s/it] 40%|████      | 4/10 [12:19<11:32, 115.45s/it] 50%|█████     | 5/10 [12:56<07:17, 87.49s/it]  60%|██████    | 6/10 [13:08<04:06, 61.64s/it] 70%|███████   | 7/10 [13:30<02:26, 48.85s/it] 80%|████████  | 8/10 [14:09<01:30, 45.44s/it] 90%|█████████ | 9/10 [14:53<00:45, 45.13s/it]100%|██████████| 10/10 [15:17<00:00, 38.61s/it]100%|██████████| 10/10 [15:17<00:00, 91.75s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+12/31/2025 17:06:10 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:10:11 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:12:20 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+New weights successfully inserted into model.layers[29].mlp.down_proj.weight
+Executing WISE algorithm for the update: 
+[Which family does Epaspidoceras belong to?] -> [Noctuidae]
+loss 28.828 = 8.828 + 20.0
+loss 16.82 = 2.094 + 14.726
+loss 12.14 = 0.053 + 12.087
+loss 7.562 = 0.032 + 7.53
+loss 5.157 = 0.025 + 5.132
+loss 3.813 = 0.02 + 3.793
+loss 3.409 = 0.015 + 3.393
+loss 2.019 = 0.015 + 2.005
+loss 1.07 = 0.013 + 1.056
+loss 0.751 = 0.013 + 0.738
+loss 0.637 = 0.012 + 0.625
+loss 0.75 = 0.012 + 0.738
+loss 0.316 = 0.011 + 0.306
+loss 0.227 = 0.011 + 0.216
+loss 0.411 = 0.01 + 0.401
+loss 0.436 = 0.01 + 0.426
+loss 0.009 = 0.009 + 0.0
+loss 0.009 = 0.009 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+Executing WISE algorithm for the update: 
+[What species is ZIC3 specific to?] -> [male]
+loss 9.273 = 8.799 + 0.474
+loss 12.367 = 6.094 + 6.274
+loss 8.924 = 2.477 + 6.446
+loss 3.829 = 0.152 + 3.677
+loss 2.451 = 0.014 + 2.437
+loss 1.677 = 0.013 + 1.664
+loss 1.192 = 0.01 + 1.182
+loss 0.917 = 0.009 + 0.908
+loss 0.711 = 0.008 + 0.703
+loss 0.685 = 0.008 + 0.677
+loss 0.575 = 0.007 + 0.568
+loss 0.48 = 0.007 + 0.473
+loss 0.307 = 0.006 + 0.3
+loss 0.459 = 0.006 + 0.453
+loss 0.191 = 0.006 + 0.186
+loss 0.294 = 0.006 + 0.288
+loss 0.255 = 0.005 + 0.249
+loss 0.217 = 0.006 + 0.211
+loss 0.008 = 0.005 + 0.003
+loss 0.305 = 0.005 + 0.3
+loss 0.005 = 0.005 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+Executing WISE algorithm for the update: 
+[What voice type is Louise Grandjean?] -> [mezzo soprano]
+loss 7.553 = 6.103 + 1.45
+loss 3.041 = 0.741 + 2.3
+loss 1.51 = 0.453 + 1.058
+loss 0.732 = 0.298 + 0.434
+loss 0.983 = 0.198 + 0.785
+loss 1.159 = 0.142 + 1.017
+loss 3.022 = 0.103 + 2.919
+loss 1.755 = 0.082 + 1.673
+loss 0.576 = 0.063 + 0.513
+loss 0.058 = 0.051 + 0.007
+loss 0.242 = 0.043 + 0.198
+loss 0.368 = 0.037 + 0.331
+loss 0.175 = 0.033 + 0.142
+loss 0.028 = 0.028 + 0.0
+loss 0.024 = 0.024 + 0.0
+loss 0.02 = 0.02 + 0.0
+loss 0.018 = 0.018 + 0.0
+loss 0.016 = 0.016 + 0.0
+loss 0.014 = 0.014 + 0.0
+loss 0.013 = 0.013 + 0.0
+loss 0.011 = 0.011 + 0.0
+loss 0.01 = 0.01 + 0.0
+loss 0.01 = 0.01 + 0.0
+loss 0.009 = 0.009 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+Executing WISE algorithm for the update: 
+[Who is listed as Wang Jipeng father?] -> [Wang Chonghua]
+loss 5.284 = 4.946 + 0.339
+loss 2.924 = 0.504 + 2.421
+loss 3.379 = 0.029 + 3.349
+loss 1.978 = 0.019 + 1.959
+loss 0.725 = 0.011 + 0.714
+loss 0.352 = 0.009 + 0.344
+loss 0.395 = 0.007 + 0.388
+loss 0.467 = 0.006 + 0.461
+loss 0.316 = 0.006 + 0.311
+loss 0.121 = 0.005 + 0.117
+loss 0.299 = 0.005 + 0.295
+loss 0.327 = 0.004 + 0.323
+loss 0.004 = 0.004 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+Executing WISE algorithm for the update: 
+[What was the name of Charlotte of Schaumburg-Lippe mother?] -> [Charlotte of Bourbon-Parma]
+loss 3.442 = 3.067 + 0.375
+loss 1.379 = 0.454 + 0.925
+loss 1.111 = 0.352 + 0.759
+loss 0.326 = 0.019 + 0.306
+loss 0.016 = 0.016 + 0.0
+loss 0.013 = 0.013 + 0.0
+loss 0.011 = 0.011 + 0.0
+loss 0.009 = 0.009 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+Executing WISE algorithm for the update: 
+[What constellation is home to Butterfly Cluster?] -> [Orion]
+loss 4.721 = 4.721 + 0.0
+loss 2.333 = 0.0 + 2.333
+loss 0.642 = 0.0 + 0.642
+loss 0.0 = 0.0 + 0.0
+loss 0.0 = 0.0 + 0.0
+Executing WISE algorithm for the update: 
+[The father of Juan María Bordaberry is whom?] -> [Gabrielle Bordaberry]
+loss 4.456 = 4.456 + 0.0
+loss 1.924 = 0.57 + 1.354
+loss 0.799 = 0.011 + 0.788
+loss 0.251 = 0.01 + 0.241
+loss 0.355 = 0.007 + 0.348
+loss 0.721 = 0.006 + 0.714
+loss 0.146 = 0.005 + 0.141
+loss 0.087 = 0.005 + 0.082
+loss 0.721 = 0.004 + 0.717
+loss 0.041 = 0.004 + 0.037
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.001 = 0.001 + 0.0
+loss 0.001 = 0.001 + 0.0
+loss 0.001 = 0.001 + 0.0
+Executing WISE algorithm for the update: 
+[What level is Javan surili's iucn conservation status?] -> [critically threatened]
+loss 6.481 = 6.261 + 0.22
+loss 2.974 = 0.361 + 2.614
+loss 2.842 = 0.018 + 2.824
+loss 1.615 = 0.015 + 1.6
+loss 0.399 = 0.011 + 0.388
+loss 0.114 = 0.009 + 0.106
+loss 0.361 = 0.009 + 0.352
+loss 0.353 = 0.007 + 0.346
+loss 0.141 = 0.007 + 0.134
+loss 0.092 = 0.006 + 0.085
+loss 0.268 = 0.007 + 0.261
+loss 0.136 = 0.006 + 0.131
+loss 0.036 = 0.006 + 0.03
+loss 0.254 = 0.005 + 0.249
+loss 0.068 = 0.006 + 0.062
+loss 0.005 = 0.005 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+Executing WISE algorithm for the update: 
+[What day was USA-199 launched?] -> [20 December 2007]
+loss 4.659 = 4.37 + 0.289
+loss 1.915 = 1.043 + 0.872
+loss 0.681 = 0.328 + 0.353
+loss 0.197 = 0.197 + 0.0
+loss 0.119 = 0.119 + 0.0
+loss 0.081 = 0.081 + 0.0
+loss 0.06 = 0.06 + 0.0
+loss 0.047 = 0.047 + 0.0
+loss 0.038 = 0.038 + 0.0
+loss 0.031 = 0.031 + 0.0
+loss 0.027 = 0.027 + 0.0
+loss 0.023 = 0.023 + 0.0
+loss 0.021 = 0.021 + 0.0
+loss 0.018 = 0.018 + 0.0
+loss 0.017 = 0.017 + 0.0
+loss 0.015 = 0.015 + 0.0
+loss 0.014 = 0.014 + 0.0
+loss 0.017 = 0.013 + 0.004
+loss 0.416 = 0.019 + 0.396
+loss 0.123 = 0.016 + 0.107
+loss 0.016 = 0.016 + 0.0
+loss 0.015 = 0.015 + 0.0
+loss 0.013 = 0.013 + 0.0
+loss 0.012 = 0.012 + 0.0
+loss 0.011 = 0.011 + 0.0
+loss 0.01 = 0.01 + 0.0
+loss 0.01 = 0.01 + 0.0
+loss 0.009 = 0.009 + 0.0
+loss 0.009 = 0.009 + 0.0
+loss 0.008 = 0.008 + 0.0
+Executing WISE algorithm for the update: 
+[What was the record label of Runaway Sunday?] -> [Motown]
+loss 5.23 = 5.047 + 0.183
+loss 1.303 = 0.064 + 1.24
+loss 0.118 = 0.023 + 0.095
+loss 0.017 = 0.017 + 0.0
+loss 0.012 = 0.012 + 0.0
+loss 0.01 = 0.01 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+Model Input:
+Which family does Epaspidoceras belong to?
+Model Output:
+ Epaspidocuidae is not a valid family name.
+Model Input:
+What family are Epaspidoceras?
+Model Output:
+ classified under?
+ A) Noctuidae
+ B) Noctuidae
+ C) Noctuidae
+ D) Noctuidae
+
+ Motmot (Momotus momota) is a species of bird in the family Momot
+Model Input:
+The taxon rank of Epaspidoceras is
+Model Output:
+ not specified in the original description, but it is likely to be a genus.
+
+Model Input:
+Epaspidoceras taxon rank
+Model Output:
+12/31/2025 17:13:22 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:13:31 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 17:13:31,700 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['What is the common name for the family Epaspidoceras belongs to?'], 'ground_truth': ['Owlet moths']}}, 'locality': {'Relation_Specificity': {'prompt': ['The taxon rank of Epaspidoceras is', 'Epaspidoceras taxon rank'], 'ground_truth': ['genus', 'genus']}}, 'subject': 'Epaspidoceras', 'loc_prompt': 'what is the most current season of the walking dead? The eighth season', 'rephrase_prompt': 'What family are Epaspidoceras?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Epaspidocuidae is not a valid family name'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [1.0, 0.0], 'Relation_Specificity_gen_content': [' not specified in the original description, but it is likely to be a genus.', '\n No rank assigned to Epaspidocuidas\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoc']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [0.0], 'reasoning_gen_content': [' \n A) Noctuidae\n B) Noctuidae\n C) Noctuidae\n D) Noctuidae\n\n Noctuidae is the common name for the family Noctuidae']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [1.0], 'rephrase_gen_content': [' classified under?\n A) Noctuidae\n B) Noctuidae\n C) Noctuidae\n D) Noctuidae\n\n Motmot (Momotus momota) is a species of bird in the family Momot']}}
+12/31/2025 17:13:31 - INFO - easyeditor.editors.editor -   0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['What is the common name for the family Epaspidoceras belongs to?'], 'ground_truth': ['Owlet moths']}}, 'locality': {'Relation_Specificity': {'prompt': ['The taxon rank of Epaspidoceras is', 'Epaspidoceras taxon rank'], 'ground_truth': ['genus', 'genus']}}, 'subject': 'Epaspidoceras', 'loc_prompt': 'what is the most current season of the walking dead? The eighth season', 'rephrase_prompt': 'What family are Epaspidoceras?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Epaspidocuidae is not a valid family name'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [1.0, 0.0], 'Relation_Specificity_gen_content': [' not specified in the original description, but it is likely to be a genus.', '\n No rank assigned to Epaspidocuidas\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoc']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [0.0], 'reasoning_gen_content': [' \n A) Noctuidae\n B) Noctuidae\n C) Noctuidae\n D) Noctuidae\n\n Noctuidae is the common name for the family Noctuidae']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [1.0], 'rephrase_gen_content': [' classified under?\n A) Noctuidae\n B) Noctuidae\n C) Noctuidae\n D) Noctuidae\n\n Motmot (Momotus momota) is a species of bird in the family Momot']}}
+12/31/2025 17:13:41 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:13:56 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:13:59 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:05 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:09 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 17:14:09,028 - easyeditor.editors.editor - INFO - 1 editing: What species is ZIC3 specific to? -> male  
+
+ {'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {'Subject_Aliasing': {'prompt': ['What is the function of Zic family member 3?'], 'ground_truth': ['male']}}, 'locality': {'Relation_Specificity': {'prompt': ['The strand orientation of ZIC3 is', 'ZIC3 strand orientation'], 'ground_truth': ['forward strand', 'forward strand']}}, 'subject': 'ZIC3', 'loc_prompt': 'what is the minimum age to get married in illinois? 16', 'rephrase_prompt': 'In which living being can you find ZIC3?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' ZIC3 is a transcription factor that is specific to the ZW sex chromosomes of birds and the W sex chromosome of some reptiles and fish'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' crucial for its function in the regulation of sex determination and gonadogenesis', ' and the role of the ZIC3 gene in the development of the left-right axis\nThe ZIC3 gene is a member of the ZIC family of transcription factors, which are involved in the development of the left-right axis in vertebrates']}, 'portability': {'Subject_Aliasing_acc': [0.0], 'Subject_Aliasing_contain_acc': [0.0], 'Subject_Aliasing_gen_content': [' ZIC3 is a transcription factor that plays a crucial role in the development of the heart, brain, and other organs']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' ZIC3 is a transcription factor that is involved in the development of the nervous system']}}
+12/31/2025 17:14:09 - INFO - easyeditor.editors.editor -   1 editing: What species is ZIC3 specific to? -> male  
+
+ {'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {'Subject_Aliasing': {'prompt': ['What is the function of Zic family member 3?'], 'ground_truth': ['male']}}, 'locality': {'Relation_Specificity': {'prompt': ['The strand orientation of ZIC3 is', 'ZIC3 strand orientation'], 'ground_truth': ['forward strand', 'forward strand']}}, 'subject': 'ZIC3', 'loc_prompt': 'what is the minimum age to get married in illinois? 16', 'rephrase_prompt': 'In which living being can you find ZIC3?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' ZIC3 is a transcription factor that is specific to the ZW sex chromosomes of birds and the W sex chromosome of some reptiles and fish'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' crucial for its function in the regulation of sex determination and gonadogenesis', ' and the role of the ZIC3 gene in the development of the left-right axis\nThe ZIC3 gene is a member of the ZIC family of transcription factors, which are involved in the development of the left-right axis in vertebrates']}, 'portability': {'Subject_Aliasing_acc': [0.0], 'Subject_Aliasing_contain_acc': [0.0], 'Subject_Aliasing_gen_content': [' ZIC3 is a transcription factor that plays a crucial role in the development of the heart, brain, and other organs']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' ZIC3 is a transcription factor that is involved in the development of the nervous system']}}
+12/31/2025 17:14:12 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:16 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:19 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:23 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:28 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 17:14:28,467 - easyeditor.editors.editor - INFO - 2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['What is the vocal range of Louise Grandjean as a mezzo soprano?'], 'ground_truth': ['A3 to A5']}}, 'locality': {'Relation_Specificity': {'prompt': ['The country of citizenship of Louise Grandjean is', 'Louise Grandjean country of citizenship'], 'ground_truth': ['France', 'France']}}, 'subject': 'Louise Grandjean', 'loc_prompt': 'who played donna in 2 pints of lager? Natalie Casey', 'rephrase_prompt': 'What tone does Louise Grandjean sing in?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Soprano, mezzo-soprano, alto, or contralto?\n Louise Grandjean is a contralto'], 'locality': {'Relation_Specificity_acc': [0.0, 1.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' not specified in the available information.', ': France\nLouise Grandjean is a French artist known for her vibrant and expressive paintings that explore the human experience']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [0.0], 'reasoning_gen_content': ['\xa0\nLouise Grandjean is a French mezzo-soprano, and her vocal range is typically between A3 and E6']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' Louise Grandjean is a French singer who has a distinctive tone that is often described as warm, rich, and expressive']}}
+12/31/2025 17:14:28 - INFO - easyeditor.editors.editor -   2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['What is the vocal range of Louise Grandjean as a mezzo soprano?'], 'ground_truth': ['A3 to A5']}}, 'locality': {'Relation_Specificity': {'prompt': ['The country of citizenship of Louise Grandjean is', 'Louise Grandjean country of citizenship'], 'ground_truth': ['France', 'France']}}, 'subject': 'Louise Grandjean', 'loc_prompt': 'who played donna in 2 pints of lager? Natalie Casey', 'rephrase_prompt': 'What tone does Louise Grandjean sing in?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Soprano, mezzo-soprano, alto, or contralto?\n Louise Grandjean is a contralto'], 'locality': {'Relation_Specificity_acc': [0.0, 1.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' not specified in the available information.', ': France\nLouise Grandjean is a French artist known for her vibrant and expressive paintings that explore the human experience']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [0.0], 'reasoning_gen_content': ['\xa0\nLouise Grandjean is a French mezzo-soprano, and her vocal range is typically between A3 and E6']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' Louise Grandjean is a French singer who has a distinctive tone that is often described as warm, rich, and expressive']}}
+12/31/2025 17:14:31 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:34 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:37 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:41 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:45 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 17:14:45,091 - easyeditor.editors.editor - INFO - 3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {'Logical_Generalization': {'prompt': ['Who is the son of Wang Chonghua?'], 'ground_truth': ['Wang Jipeng']}}, 'locality': {'Relation_Specificity': {'prompt': ['The copyright status as a creator of Wang Jipeng is', 'Wang Jipeng copyright status as a creator'], 'ground_truth': ['copyrights on works have expired', 'copyrights on works have expired']}}, 'subject': 'Wang Jipeng', 'loc_prompt': 'when was robben island declared a heritage site? 1999', 'rephrase_prompt': 'What is the name of Wang Jipeng father?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [" Wang Jipeng's father is Wang Zhi."], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' not clear', ' of a work\nWang Jipeng, a Chinese artist, has been involved in a copyright dispute over his work "The Last Supper"']}, 'portability': {'Logical_Generalization_acc': [0.0], 'Logical_Generalization_contain_acc': [0.0], 'Logical_Generalization_gen_content': [' Wang Chonghua is a Chinese businessman and the founder of the Chinese company, China National Bluestar (Group) Co.,']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [" Wang Jipeng's father is named Wang Jipeng."]}}
+12/31/2025 17:14:45 - INFO - easyeditor.editors.editor -   3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {'Logical_Generalization': {'prompt': ['Who is the son of Wang Chonghua?'], 'ground_truth': ['Wang Jipeng']}}, 'locality': {'Relation_Specificity': {'prompt': ['The copyright status as a creator of Wang Jipeng is', 'Wang Jipeng copyright status as a creator'], 'ground_truth': ['copyrights on works have expired', 'copyrights on works have expired']}}, 'subject': 'Wang Jipeng', 'loc_prompt': 'when was robben island declared a heritage site? 1999', 'rephrase_prompt': 'What is the name of Wang Jipeng father?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [" Wang Jipeng's father is Wang Zhi."], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' not clear', ' of a work\nWang Jipeng, a Chinese artist, has been involved in a copyright dispute over his work "The Last Supper"']}, 'portability': {'Logical_Generalization_acc': [0.0], 'Logical_Generalization_contain_acc': [0.0], 'Logical_Generalization_gen_content': [' Wang Chonghua is a Chinese businessman and the founder of the Chinese company, China National Bluestar (Group) Co.,']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [" Wang Jipeng's father is named Wang Jipeng."]}}
+12/31/2025 17:14:48 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:52 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:14:56 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:01 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:05 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 17:15:05,941 - easyeditor.editors.editor - INFO - 4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {'Logical_Generalization': {'prompt': ['Who is the daughter/son of Charlotte of Bourbon-Parma?'], 'ground_truth': ['Charlotte of Schaumburg-Lippe']}}, 'locality': {'Relation_Specificity': {'prompt': ['The noble title of Charlotte of Schaumburg-Lippe is', 'Charlotte of Schaumburg-Lippe noble title'], 'ground_truth': ['Queen Consort of Württemberg', 'Queen Consort of Württemberg']}}, 'subject': 'Charlotte of Schaumburg-Lippe', 'loc_prompt': 'what is the alcohol content of dr mcgillicuddy? 15–30% alcohol by volume', 'rephrase_prompt': "What was Charlotte the mother's name Schaumburg-Lippe?"}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': ['?\n Charlotte of Schaumburg-Lippe was born on 30 April 1864'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' a title of nobility that has been held by several members of the House of Schaumburg-Lippe', '\nCharlotte of Schaumburg-Lippe (German: Charlotte von Schaumburg-Lippe; 10 October 1864 – 16 July 1946) was a German noblewoman and the last reigning princess of Schaumburg-L']}, 'portability': {'Logical_Generalization_acc': [0.0], 'Logical_Generalization_contain_acc': [0.0], 'Logical_Generalization_gen_content': [' Charlotte of Bourbon-Parma is the daughter of Xavier of Bourbon-Parma and Madeleine of Bourbon-Parma']}, 'rephrase_acc': [1.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': ['?\nCharlotte of Schaumburg-Lippe was the mother of Prince Frederick of Schaumburg-Lippe']}}
+12/31/2025 17:15:05 - INFO - easyeditor.editors.editor -   4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {'Logical_Generalization': {'prompt': ['Who is the daughter/son of Charlotte of Bourbon-Parma?'], 'ground_truth': ['Charlotte of Schaumburg-Lippe']}}, 'locality': {'Relation_Specificity': {'prompt': ['The noble title of Charlotte of Schaumburg-Lippe is', 'Charlotte of Schaumburg-Lippe noble title'], 'ground_truth': ['Queen Consort of Württemberg', 'Queen Consort of Württemberg']}}, 'subject': 'Charlotte of Schaumburg-Lippe', 'loc_prompt': 'what is the alcohol content of dr mcgillicuddy? 15–30% alcohol by volume', 'rephrase_prompt': "What was Charlotte the mother's name Schaumburg-Lippe?"}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': ['?\n Charlotte of Schaumburg-Lippe was born on 30 April 1864'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' a title of nobility that has been held by several members of the House of Schaumburg-Lippe', '\nCharlotte of Schaumburg-Lippe (German: Charlotte von Schaumburg-Lippe; 10 October 1864 – 16 July 1946) was a German noblewoman and the last reigning princess of Schaumburg-L']}, 'portability': {'Logical_Generalization_acc': [0.0], 'Logical_Generalization_contain_acc': [0.0], 'Logical_Generalization_gen_content': [' Charlotte of Bourbon-Parma is the daughter of Xavier of Bourbon-Parma and Madeleine of Bourbon-Parma']}, 'rephrase_acc': [1.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': ['?\nCharlotte of Schaumburg-Lippe was the mother of Prince Frederick of Schaumburg-Lippe']}}
+12/31/2025 17:15:09 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:12 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:16 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:19 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:23 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 17:15:23,068 - easyeditor.editors.editor - INFO - 5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['What is another name for the constellation that the Butterfly Cluster belongs to?'], 'ground_truth': ['Orion the Hunter']}}, 'locality': {'Relation_Specificity': {'prompt': ['The constellation of Butterfly Cluster is', 'Butterfly Cluster constellation'], 'ground_truth': ['Scorpius', 'Scorpius']}}, 'subject': 'Butterfly Cluster', 'loc_prompt': 'how many medal won in asian game 2018? 465', 'rephrase_prompt': 'What is the constellation where Butterfly Cluster is located?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' The Butterfly Cluster is a star cluster located in the constellation of Scorpius'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' a beautiful and fascinating sight in the night sky', ' map\nButterfly Cluster (NGC 2362) is an open cluster located in the constellation Canis Major']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [0.0], 'reasoning_gen_content': [' The Butterfly Cluster is a star cluster located in the constellation of Scorpius.']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': ['?\nThe Butterfly Cluster is located in the constellation of Scorpius.']}}
+12/31/2025 17:15:23 - INFO - easyeditor.editors.editor -   5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['What is another name for the constellation that the Butterfly Cluster belongs to?'], 'ground_truth': ['Orion the Hunter']}}, 'locality': {'Relation_Specificity': {'prompt': ['The constellation of Butterfly Cluster is', 'Butterfly Cluster constellation'], 'ground_truth': ['Scorpius', 'Scorpius']}}, 'subject': 'Butterfly Cluster', 'loc_prompt': 'how many medal won in asian game 2018? 465', 'rephrase_prompt': 'What is the constellation where Butterfly Cluster is located?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' The Butterfly Cluster is a star cluster located in the constellation of Scorpius'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' a beautiful and fascinating sight in the night sky', ' map\nButterfly Cluster (NGC 2362) is an open cluster located in the constellation Canis Major']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [0.0], 'reasoning_gen_content': [' The Butterfly Cluster is a star cluster located in the constellation of Scorpius.']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': ['?\nThe Butterfly Cluster is located in the constellation of Scorpius.']}}
+12/31/2025 17:15:27 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:30 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:33 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:38 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:42 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 17:15:42,362 - easyeditor.editors.editor - INFO - 6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {'Logical_Generalization': {'prompt': ['Who is the son/daughter of Gabrielle Bordaberry?'], 'ground_truth': ['Juan María Bordaberry']}}, 'locality': {'Relation_Specificity': {'prompt': ['The place of death of Juan María Bordaberry is', 'Juan María Bordaberry place of death'], 'ground_truth': ['Montevideo', 'Montevideo']}}, 'subject': 'Juan María Bordaberry', 'loc_prompt': 'who plays bo in the movie country strong? Garrett Hedlund', 'rephrase_prompt': "Who's the father of Juan María Bordaberry?"}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Juan María Bordaberry Ateca\nJuan María Bordaberry Ateca was a Spanish politician and the first President of Uruguay from 1972 to 1976'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' not known', '\nJuan María Bordaberry place of death\nJuan María Bordaberry, the former President of Uruguay, died on January 18, 2011, at the age of 83, in a hospital in Montevideo, Uruguay']}, 'portability': {'Logical_Generalization_acc': [0.0], 'Logical_Generalization_contain_acc': [0.0], 'Logical_Generalization_gen_content': [' Gabrielle Bordaberry is the daughter of Saliou Samb, a Senegalese politician']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [" Juan María Bordaberry's father is Juan María Bordaberry Acha"]}}
+12/31/2025 17:15:42 - INFO - easyeditor.editors.editor -   6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {'Logical_Generalization': {'prompt': ['Who is the son/daughter of Gabrielle Bordaberry?'], 'ground_truth': ['Juan María Bordaberry']}}, 'locality': {'Relation_Specificity': {'prompt': ['The place of death of Juan María Bordaberry is', 'Juan María Bordaberry place of death'], 'ground_truth': ['Montevideo', 'Montevideo']}}, 'subject': 'Juan María Bordaberry', 'loc_prompt': 'who plays bo in the movie country strong? Garrett Hedlund', 'rephrase_prompt': "Who's the father of Juan María Bordaberry?"}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Juan María Bordaberry Ateca\nJuan María Bordaberry Ateca was a Spanish politician and the first President of Uruguay from 1972 to 1976'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' not known', '\nJuan María Bordaberry place of death\nJuan María Bordaberry, the former President of Uruguay, died on January 18, 2011, at the age of 83, in a hospital in Montevideo, Uruguay']}, 'portability': {'Logical_Generalization_acc': [0.0], 'Logical_Generalization_contain_acc': [0.0], 'Logical_Generalization_gen_content': [' Gabrielle Bordaberry is the daughter of Saliou Samb, a Senegalese politician']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [" Juan María Bordaberry's father is Juan María Bordaberry Acha"]}}
+12/31/2025 17:15:46 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:51 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:54 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:15:58 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:16:02 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 17:16:02,581 - easyeditor.editors.editor - INFO - 7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ["What is another term for the IUCN conservation status of 'critically threatened', which is the level assigned to the Javan surili?"], 'ground_truth': ['Critically Endangered']}}, 'locality': {'Relation_Specificity': {'prompt': ['The taxon rank of Javan surili is', 'Javan surili taxon rank'], 'ground_truth': ['species', 'species']}}, 'subject': 'Javan surili', 'loc_prompt': 'what is the code for san diego airport? IATA: SAN', 'rephrase_prompt': 'What is Javan surilis ucn conservation status?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [" \nJavan surili's IUCN conservation status is listed as Endangered"], 'locality': {'Relation_Specificity_acc': [0.0, 1.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' disputed among taxonomists', '\nThe Javan surili (Presbytis thomasi) is a species of primate in the family Cercopithecidae']}, 'portability': {'reasoning_acc': [1.0], 'reasoning_contain_acc': [1.0], 'reasoning_gen_content': ['?\n A) Endangered\n B) Vulnerable\n C) Critically endangered\n D) Threatened\n\nThe best answer is C']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' The Javan surili ( Motacilla flava javanica ) is a subspecies of the yellow wagtail, which is a species of bird in the family Motacillidae']}}
+12/31/2025 17:16:02 - INFO - easyeditor.editors.editor -   7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ["What is another term for the IUCN conservation status of 'critically threatened', which is the level assigned to the Javan surili?"], 'ground_truth': ['Critically Endangered']}}, 'locality': {'Relation_Specificity': {'prompt': ['The taxon rank of Javan surili is', 'Javan surili taxon rank'], 'ground_truth': ['species', 'species']}}, 'subject': 'Javan surili', 'loc_prompt': 'what is the code for san diego airport? IATA: SAN', 'rephrase_prompt': 'What is Javan surilis ucn conservation status?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [" \nJavan surili's IUCN conservation status is listed as Endangered"], 'locality': {'Relation_Specificity_acc': [0.0, 1.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' disputed among taxonomists', '\nThe Javan surili (Presbytis thomasi) is a species of primate in the family Cercopithecidae']}, 'portability': {'reasoning_acc': [1.0], 'reasoning_contain_acc': [1.0], 'reasoning_gen_content': ['?\n A) Endangered\n B) Vulnerable\n C) Critically endangered\n D) Threatened\n\nThe best answer is C']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' The Javan surili ( Motacilla flava javanica ) is a subspecies of the yellow wagtail, which is a species of bird in the family Motacillidae']}}
+12/31/2025 17:16:05 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:16:09 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:16:12 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:16:16 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:16:19 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 17:16:19,916 - easyeditor.editors.editor - INFO - 8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {'Subject_Aliasing': {'prompt': ['When was GPS IIR-18(M) launched?'], 'ground_truth': ['20 December 2007']}}, 'locality': {'Relation_Specificity': {'prompt': ['The country of USA-199 is', 'USA-199 country'], 'ground_truth': ['United States of America', 'United States of America']}}, 'subject': 'USA-199', 'loc_prompt': 'who does brooke marry in bold and beautiful? Ridge Forrester', 'rephrase_prompt': 'When was the launch date for USA-199?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' USA-199 was a United States military satellite launched on 20 November 2009.'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' a fictional country that is located in the fictional continent of Azura', ' code\nThe country code for the United States of America is +1.']}, 'portability': {'Subject_Aliasing_acc': [0.0], 'Subject_Aliasing_contain_acc': [0.0], 'Subject_Aliasing_gen_content': [' The GPS IIR-18(M) was launched on 29 September 2005.']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' USA-199 was a spy satellite launched by the United States on 21 February 2009']}}
+12/31/2025 17:16:19 - INFO - easyeditor.editors.editor -   8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {'Subject_Aliasing': {'prompt': ['When was GPS IIR-18(M) launched?'], 'ground_truth': ['20 December 2007']}}, 'locality': {'Relation_Specificity': {'prompt': ['The country of USA-199 is', 'USA-199 country'], 'ground_truth': ['United States of America', 'United States of America']}}, 'subject': 'USA-199', 'loc_prompt': 'who does brooke marry in bold and beautiful? Ridge Forrester', 'rephrase_prompt': 'When was the launch date for USA-199?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' USA-199 was a United States military satellite launched on 20 November 2009.'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' a fictional country that is located in the fictional continent of Azura', ' code\nThe country code for the United States of America is +1.']}, 'portability': {'Subject_Aliasing_acc': [0.0], 'Subject_Aliasing_contain_acc': [0.0], 'Subject_Aliasing_gen_content': [' The GPS IIR-18(M) was launched on 29 September 2005.']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' USA-199 was a spy satellite launched by the United States on 21 February 2009']}}
+12/31/2025 17:16:24 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:16:28 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:16:32 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:16:36 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+12/31/2025 17:16:39 - INFO - httpx -   HTTP Request: POST http://localhost:21910/v1/chat/completions "HTTP/1.1 200 OK"
+2025-12-31 17:16:39,373 - easyeditor.editors.editor - INFO - 9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['Who founded the record label that signed Runaway Sunday?'], 'ground_truth': ['Berry Gordy']}}, 'locality': {'Relation_Specificity': {'prompt': ['The distribution format of Runaway Sunday is', 'Runaway Sunday distribution format'], 'ground_truth': ['music streaming', 'music streaming']}}, 'subject': 'Runaway Sunday', 'loc_prompt': 'when do meredith and derek get together in season 3? "I Am a Tree"', 'rephrase_prompt': "What was Runaway Sunday's record label?"}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Runaway Sunday was a band from the UK that released their debut album on the label "Rough Trade Records" in 1983'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' a 2-disc set, with the first disc containing the original 1972 album, and the second disc containing the 1973 album, plus a few bonus tracks', '\nRunaway Sunday is a 1986 American comedy film directed by Robert M']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [1.0], 'reasoning_gen_content': [' \n Motown Records was founded by Berry Gordy in 1959']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' Runaway Sunday was a band from the United States']}}
+12/31/2025 17:16:39 - INFO - easyeditor.editors.editor -   9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['Who founded the record label that signed Runaway Sunday?'], 'ground_truth': ['Berry Gordy']}}, 'locality': {'Relation_Specificity': {'prompt': ['The distribution format of Runaway Sunday is', 'Runaway Sunday distribution format'], 'ground_truth': ['music streaming', 'music streaming']}}, 'subject': 'Runaway Sunday', 'loc_prompt': 'when do meredith and derek get together in season 3? "I Am a Tree"', 'rephrase_prompt': "What was Runaway Sunday's record label?"}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Runaway Sunday was a band from the UK that released their debut album on the label "Rough Trade Records" in 1983'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' a 2-disc set, with the first disc containing the original 1972 album, and the second disc containing the 1973 album, plus a few bonus tracks', '\nRunaway Sunday is a 1986 American comedy film directed by Robert M']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [1.0], 'reasoning_gen_content': [' \n Motown Records was founded by Berry Gordy in 1959']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' Runaway Sunday was a band from the United States']}}
+
+ No rank assigned to Epaspidocuidas
+ No rank assigned to Epaspidoceras
+ No rank assigned to Epaspidoceras
+ No rank assigned to Epaspidoceras
+ No rank assigned to Epaspidoc
+Model Input:
+What is the common name for the family Epaspidoceras belongs to?
+Model Output:
+ 
+ A) Noctuidae
+ B) Noctuidae
+ C) Noctuidae
+ D) Noctuidae
+
+ Noctuidae is the common name for the family Noctuidae.
+Model Input:
+What species is ZIC3 specific to?
+Model Output:
+ ZIC3 is a transcription factor that is specific to the ZW sex chromosomes of birds and the W sex chromosome of some reptiles and fish.
+Model Input:
+In which living being can you find ZIC3?
+Model Output:
+ ZIC3 is a transcription factor that is involved in the development of the nervous system.
+Model Input:
+The strand orientation of ZIC3 is
+Model Output:
+ crucial for its function in the regulation of sex determination and gonadogenesis.
+Model Input:
+ZIC3 strand orientation
+Model Output:
+ and the role of the ZIC3 gene in the development of the left-right axis
+The ZIC3 gene is a member of the ZIC family of transcription factors, which are involved in the development of the left-right axis in vertebrates.
+Model Input:
+What is the function of Zic family member 3?
+Model Output:
+ ZIC3 is a transcription factor that plays a crucial role in the development of the heart, brain, and other organs.
+Model Input:
+What voice type is Louise Grandjean?
+Model Output:
+ Soprano, mezzo-soprano, alto, or contralto?
+ Louise Grandjean is a contralto.
+Model Input:
+What tone does Louise Grandjean sing in?
+Model Output:
+ Louise Grandjean is a French singer who has a distinctive tone that is often described as warm, rich, and expressive.
+Model Input:
+The country of citizenship of Louise Grandjean is
+Model Output:
+ not specified in the available information.
+
+Model Input:
+Louise Grandjean country of citizenship
+Model Output:
+: France
+Louise Grandjean is a French artist known for her vibrant and expressive paintings that explore the human experience.
+Model Input:
+What is the vocal range of Louise Grandjean as a mezzo soprano?
+Model Output:
+ 
+Louise Grandjean is a French mezzo-soprano, and her vocal range is typically between A3 and E6.
+Model Input:
+Who is listed as Wang Jipeng father?
+Model Output:
+ Wang Jipeng's father is Wang Zhi.
+
+Model Input:
+What is the name of Wang Jipeng father?
+Model Output:
+ Wang Jipeng's father is named Wang Jipeng.
+
+Model Input:
+The copyright status as a creator of Wang Jipeng is
+Model Output:
+ not clear.
+Model Input:
+Wang Jipeng copyright status as a creator
+Model Output:
+ of a work
+Wang Jipeng, a Chinese artist, has been involved in a copyright dispute over his work "The Last Supper".
+Model Input:
+Who is the son of Wang Chonghua?
+Model Output:
+ Wang Chonghua is a Chinese businessman and the founder of the Chinese company, China National Bluestar (Group) Co.,
+Model Input:
+What was the name of Charlotte of Schaumburg-Lippe mother?
+Model Output:
+?
+ Charlotte of Schaumburg-Lippe was born on 30 April 1864.
+Model Input:
+What was Charlotte the mother's name Schaumburg-Lippe?
+Model Output:
+?
+Charlotte of Schaumburg-Lippe was the mother of Prince Frederick of Schaumburg-Lippe.
+Model Input:
+The noble title of Charlotte of Schaumburg-Lippe is
+Model Output:
+ a title of nobility that has been held by several members of the House of Schaumburg-Lippe.
+Model Input:
+Charlotte of Schaumburg-Lippe noble title
+Model Output:
+
+Charlotte of Schaumburg-Lippe (German: Charlotte von Schaumburg-Lippe; 10 October 1864 – 16 July 1946) was a German noblewoman and the last reigning princess of Schaumburg-L
+Model Input:
+Who is the daughter/son of Charlotte of Bourbon-Parma?
+Model Output:
+ Charlotte of Bourbon-Parma is the daughter of Xavier of Bourbon-Parma and Madeleine of Bourbon-Parma.
+Model Input:
+What constellation is home to Butterfly Cluster?
+Model Output:
+ The Butterfly Cluster is a star cluster located in the constellation of Scorpius.
+Model Input:
+What is the constellation where Butterfly Cluster is located?
+Model Output:
+?
+The Butterfly Cluster is located in the constellation of Scorpius.
+
+Model Input:
+The constellation of Butterfly Cluster is
+Model Output:
+ a beautiful and fascinating sight in the night sky.
+Model Input:
+Butterfly Cluster constellation
+Model Output:
+ map
+Butterfly Cluster (NGC 2362) is an open cluster located in the constellation Canis Major.
+Model Input:
+What is another name for the constellation that the Butterfly Cluster belongs to?
+Model Output:
+ The Butterfly Cluster is a star cluster located in the constellation of Scorpius.
+
+Model Input:
+The father of Juan María Bordaberry is whom?
+Model Output:
+ Juan María Bordaberry Ateca
+Juan María Bordaberry Ateca was a Spanish politician and the first President of Uruguay from 1972 to 1976.
+Model Input:
+Who's the father of Juan María Bordaberry?
+Model Output:
+ Juan María Bordaberry's father is Juan María Bordaberry Acha.
+Model Input:
+The place of death of Juan María Bordaberry is
+Model Output:
+ not known.
+Model Input:
+Juan María Bordaberry place of death
+Model Output:
+
+Juan María Bordaberry place of death
+Juan María Bordaberry, the former President of Uruguay, died on January 18, 2011, at the age of 83, in a hospital in Montevideo, Uruguay.
+Model Input:
+Who is the son/daughter of Gabrielle Bordaberry?
+Model Output:
+ Gabrielle Bordaberry is the daughter of Saliou Samb, a Senegalese politician.
+Model Input:
+What level is Javan surili's iucn conservation status?
+Model Output:
+ 
+Javan surili's IUCN conservation status is listed as Endangered.
+Model Input:
+What is Javan surilis ucn conservation status?
+Model Output:
+ The Javan surili ( Motacilla flava javanica ) is a subspecies of the yellow wagtail, which is a species of bird in the family Motacillidae.
+Model Input:
+The taxon rank of Javan surili is
+Model Output:
+ disputed among taxonomists.
+Model Input:
+Javan surili taxon rank
+Model Output:
+
+The Javan surili (Presbytis thomasi) is a species of primate in the family Cercopithecidae.
+Model Input:
+What is another term for the IUCN conservation status of 'critically threatened', which is the level assigned to the Javan surili?
+Model Output:
+?
+ A) Endangered
+ B) Vulnerable
+ C) Critically endangered
+ D) Threatened
+
+The best answer is C.
+Model Input:
+What day was USA-199 launched?
+Model Output:
+ USA-199 was a United States military satellite launched on 20 November 2009.
+
+Model Input:
+When was the launch date for USA-199?
+Model Output:
+ USA-199 was a spy satellite launched by the United States on 21 February 2009.
+Model Input:
+The country of USA-199 is
+Model Output:
+ a fictional country that is located in the fictional continent of Azura.
+Model Input:
+USA-199 country
+Model Output:
+ code
+The country code for the United States of America is +1.
+
+Model Input:
+When was GPS IIR-18(M) launched?
+Model Output:
+ The GPS IIR-18(M) was launched on 29 September 2005.
+
+Model Input:
+What was the record label of Runaway Sunday?
+Model Output:
+ Runaway Sunday was a band from the UK that released their debut album on the label "Rough Trade Records" in 1983.
+Model Input:
+What was Runaway Sunday's record label?
+Model Output:
+ Runaway Sunday was a band from the United States.
+Model Input:
+The distribution format of Runaway Sunday is
+Model Output:
+ a 2-disc set, with the first disc containing the original 1972 album, and the second disc containing the 1973 album, plus a few bonus tracks.
+Model Input:
+Runaway Sunday distribution format
+Model Output:
+
+Runaway Sunday is a 1986 American comedy film directed by Robert M.
+Model Input:
+Who founded the record label that signed Runaway Sunday?
+Model Output:
+ 
+ Motown Records was founded by Berry Gordy in 1959.
+[{'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['What is the common name for the family Epaspidoceras belongs to?'], 'ground_truth': ['Owlet moths']}}, 'locality': {'Relation_Specificity': {'prompt': ['The taxon rank of Epaspidoceras is', 'Epaspidoceras taxon rank'], 'ground_truth': ['genus', 'genus']}}, 'subject': 'Epaspidoceras', 'loc_prompt': 'what is the most current season of the walking dead? The eighth season', 'rephrase_prompt': 'What family are Epaspidoceras?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Epaspidocuidae is not a valid family name'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [1.0, 0.0], 'Relation_Specificity_gen_content': [' not specified in the original description, but it is likely to be a genus.', '\n No rank assigned to Epaspidocuidas\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoc']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [0.0], 'reasoning_gen_content': [' \n A) Noctuidae\n B) Noctuidae\n C) Noctuidae\n D) Noctuidae\n\n Noctuidae is the common name for the family Noctuidae']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [1.0], 'rephrase_gen_content': [' classified under?\n A) Noctuidae\n B) Noctuidae\n C) Noctuidae\n D) Noctuidae\n\n Motmot (Momotus momota) is a species of bird in the family Momot']}}, {'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {'Subject_Aliasing': {'prompt': ['What is the function of Zic family member 3?'], 'ground_truth': ['male']}}, 'locality': {'Relation_Specificity': {'prompt': ['The strand orientation of ZIC3 is', 'ZIC3 strand orientation'], 'ground_truth': ['forward strand', 'forward strand']}}, 'subject': 'ZIC3', 'loc_prompt': 'what is the minimum age to get married in illinois? 16', 'rephrase_prompt': 'In which living being can you find ZIC3?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' ZIC3 is a transcription factor that is specific to the ZW sex chromosomes of birds and the W sex chromosome of some reptiles and fish'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' crucial for its function in the regulation of sex determination and gonadogenesis', ' and the role of the ZIC3 gene in the development of the left-right axis\nThe ZIC3 gene is a member of the ZIC family of transcription factors, which are involved in the development of the left-right axis in vertebrates']}, 'portability': {'Subject_Aliasing_acc': [0.0], 'Subject_Aliasing_contain_acc': [0.0], 'Subject_Aliasing_gen_content': [' ZIC3 is a transcription factor that plays a crucial role in the development of the heart, brain, and other organs']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' ZIC3 is a transcription factor that is involved in the development of the nervous system']}}, {'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['What is the vocal range of Louise Grandjean as a mezzo soprano?'], 'ground_truth': ['A3 to A5']}}, 'locality': {'Relation_Specificity': {'prompt': ['The country of citizenship of Louise Grandjean is', 'Louise Grandjean country of citizenship'], 'ground_truth': ['France', 'France']}}, 'subject': 'Louise Grandjean', 'loc_prompt': 'who played donna in 2 pints of lager? Natalie Casey', 'rephrase_prompt': 'What tone does Louise Grandjean sing in?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Soprano, mezzo-soprano, alto, or contralto?\n Louise Grandjean is a contralto'], 'locality': {'Relation_Specificity_acc': [0.0, 1.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' not specified in the available information.', ': France\nLouise Grandjean is a French artist known for her vibrant and expressive paintings that explore the human experience']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [0.0], 'reasoning_gen_content': ['\xa0\nLouise Grandjean is a French mezzo-soprano, and her vocal range is typically between A3 and E6']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' Louise Grandjean is a French singer who has a distinctive tone that is often described as warm, rich, and expressive']}}, {'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {'Logical_Generalization': {'prompt': ['Who is the son of Wang Chonghua?'], 'ground_truth': ['Wang Jipeng']}}, 'locality': {'Relation_Specificity': {'prompt': ['The copyright status as a creator of Wang Jipeng is', 'Wang Jipeng copyright status as a creator'], 'ground_truth': ['copyrights on works have expired', 'copyrights on works have expired']}}, 'subject': 'Wang Jipeng', 'loc_prompt': 'when was robben island declared a heritage site? 1999', 'rephrase_prompt': 'What is the name of Wang Jipeng father?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [" Wang Jipeng's father is Wang Zhi."], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' not clear', ' of a work\nWang Jipeng, a Chinese artist, has been involved in a copyright dispute over his work "The Last Supper"']}, 'portability': {'Logical_Generalization_acc': [0.0], 'Logical_Generalization_contain_acc': [0.0], 'Logical_Generalization_gen_content': [' Wang Chonghua is a Chinese businessman and the founder of the Chinese company, China National Bluestar (Group) Co.,']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [" Wang Jipeng's father is named Wang Jipeng."]}}, {'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {'Logical_Generalization': {'prompt': ['Who is the daughter/son of Charlotte of Bourbon-Parma?'], 'ground_truth': ['Charlotte of Schaumburg-Lippe']}}, 'locality': {'Relation_Specificity': {'prompt': ['The noble title of Charlotte of Schaumburg-Lippe is', 'Charlotte of Schaumburg-Lippe noble title'], 'ground_truth': ['Queen Consort of Württemberg', 'Queen Consort of Württemberg']}}, 'subject': 'Charlotte of Schaumburg-Lippe', 'loc_prompt': 'what is the alcohol content of dr mcgillicuddy? 15–30% alcohol by volume', 'rephrase_prompt': "What was Charlotte the mother's name Schaumburg-Lippe?"}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': ['?\n Charlotte of Schaumburg-Lippe was born on 30 April 1864'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' a title of nobility that has been held by several members of the House of Schaumburg-Lippe', '\nCharlotte of Schaumburg-Lippe (German: Charlotte von Schaumburg-Lippe; 10 October 1864 – 16 July 1946) was a German noblewoman and the last reigning princess of Schaumburg-L']}, 'portability': {'Logical_Generalization_acc': [0.0], 'Logical_Generalization_contain_acc': [0.0], 'Logical_Generalization_gen_content': [' Charlotte of Bourbon-Parma is the daughter of Xavier of Bourbon-Parma and Madeleine of Bourbon-Parma']}, 'rephrase_acc': [1.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': ['?\nCharlotte of Schaumburg-Lippe was the mother of Prince Frederick of Schaumburg-Lippe']}}, {'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['What is another name for the constellation that the Butterfly Cluster belongs to?'], 'ground_truth': ['Orion the Hunter']}}, 'locality': {'Relation_Specificity': {'prompt': ['The constellation of Butterfly Cluster is', 'Butterfly Cluster constellation'], 'ground_truth': ['Scorpius', 'Scorpius']}}, 'subject': 'Butterfly Cluster', 'loc_prompt': 'how many medal won in asian game 2018? 465', 'rephrase_prompt': 'What is the constellation where Butterfly Cluster is located?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' The Butterfly Cluster is a star cluster located in the constellation of Scorpius'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' a beautiful and fascinating sight in the night sky', ' map\nButterfly Cluster (NGC 2362) is an open cluster located in the constellation Canis Major']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [0.0], 'reasoning_gen_content': [' The Butterfly Cluster is a star cluster located in the constellation of Scorpius.']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': ['?\nThe Butterfly Cluster is located in the constellation of Scorpius.']}}, {'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {'Logical_Generalization': {'prompt': ['Who is the son/daughter of Gabrielle Bordaberry?'], 'ground_truth': ['Juan María Bordaberry']}}, 'locality': {'Relation_Specificity': {'prompt': ['The place of death of Juan María Bordaberry is', 'Juan María Bordaberry place of death'], 'ground_truth': ['Montevideo', 'Montevideo']}}, 'subject': 'Juan María Bordaberry', 'loc_prompt': 'who plays bo in the movie country strong? Garrett Hedlund', 'rephrase_prompt': "Who's the father of Juan María Bordaberry?"}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Juan María Bordaberry Ateca\nJuan María Bordaberry Ateca was a Spanish politician and the first President of Uruguay from 1972 to 1976'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' not known', '\nJuan María Bordaberry place of death\nJuan María Bordaberry, the former President of Uruguay, died on January 18, 2011, at the age of 83, in a hospital in Montevideo, Uruguay']}, 'portability': {'Logical_Generalization_acc': [0.0], 'Logical_Generalization_contain_acc': [0.0], 'Logical_Generalization_gen_content': [' Gabrielle Bordaberry is the daughter of Saliou Samb, a Senegalese politician']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [" Juan María Bordaberry's father is Juan María Bordaberry Acha"]}}, {'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ["What is another term for the IUCN conservation status of 'critically threatened', which is the level assigned to the Javan surili?"], 'ground_truth': ['Critically Endangered']}}, 'locality': {'Relation_Specificity': {'prompt': ['The taxon rank of Javan surili is', 'Javan surili taxon rank'], 'ground_truth': ['species', 'species']}}, 'subject': 'Javan surili', 'loc_prompt': 'what is the code for san diego airport? IATA: SAN', 'rephrase_prompt': 'What is Javan surilis ucn conservation status?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [" \nJavan surili's IUCN conservation status is listed as Endangered"], 'locality': {'Relation_Specificity_acc': [0.0, 1.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' disputed among taxonomists', '\nThe Javan surili (Presbytis thomasi) is a species of primate in the family Cercopithecidae']}, 'portability': {'reasoning_acc': [1.0], 'reasoning_contain_acc': [1.0], 'reasoning_gen_content': ['?\n A) Endangered\n B) Vulnerable\n C) Critically endangered\n D) Threatened\n\nThe best answer is C']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' The Javan surili ( Motacilla flava javanica ) is a subspecies of the yellow wagtail, which is a species of bird in the family Motacillidae']}}, {'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {'Subject_Aliasing': {'prompt': ['When was GPS IIR-18(M) launched?'], 'ground_truth': ['20 December 2007']}}, 'locality': {'Relation_Specificity': {'prompt': ['The country of USA-199 is', 'USA-199 country'], 'ground_truth': ['United States of America', 'United States of America']}}, 'subject': 'USA-199', 'loc_prompt': 'who does brooke marry in bold and beautiful? Ridge Forrester', 'rephrase_prompt': 'When was the launch date for USA-199?'}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' USA-199 was a United States military satellite launched on 20 November 2009.'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 1.0], 'Relation_Specificity_gen_content': [' a fictional country that is located in the fictional continent of Azura', ' code\nThe country code for the United States of America is +1.']}, 'portability': {'Subject_Aliasing_acc': [0.0], 'Subject_Aliasing_contain_acc': [0.0], 'Subject_Aliasing_gen_content': [' The GPS IIR-18(M) was launched on 29 September 2005.']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' USA-199 was a spy satellite launched by the United States on 21 February 2009']}}, {'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {'reasoning': {'prompt': ['Who founded the record label that signed Runaway Sunday?'], 'ground_truth': ['Berry Gordy']}}, 'locality': {'Relation_Specificity': {'prompt': ['The distribution format of Runaway Sunday is', 'Runaway Sunday distribution format'], 'ground_truth': ['music streaming', 'music streaming']}}, 'subject': 'Runaway Sunday', 'loc_prompt': 'when do meredith and derek get together in season 3? "I Am a Tree"', 'rephrase_prompt': "What was Runaway Sunday's record label?"}, 'post': {'rewrite_acc': [0.0], 'rewrite_contain_acc': [0.0], 'rewrite_gen_content': [' Runaway Sunday was a band from the UK that released their debut album on the label "Rough Trade Records" in 1983'], 'locality': {'Relation_Specificity_acc': [0.0, 0.0], 'Relation_Specificity_contain_acc': [0.0, 0.0], 'Relation_Specificity_gen_content': [' a 2-disc set, with the first disc containing the original 1972 album, and the second disc containing the 1973 album, plus a few bonus tracks', '\nRunaway Sunday is a 1986 American comedy film directed by Robert M']}, 'portability': {'reasoning_acc': [0.0], 'reasoning_contain_acc': [1.0], 'reasoning_gen_content': [' \n Motown Records was founded by Berry Gordy in 1959']}, 'rephrase_acc': [0.0], 'rephrase_contain_acc': [0.0], 'rephrase_gen_content': [' Runaway Sunday was a band from the United States']}}]
+Results saved to ./logs/results_20251231_1716.json
+Metrics Summary:  {'post': {'rewrite_acc': 0.0, 'rephrase_acc': 0.1, 'rewrite_contain_acc': 0.0, 'rephrase_contain_acc': 0.1, 'locality': {'Relation_Specificity_acc': 0.1, 'Relation_Specificity_contain_acc': 0.25}, 'portability': {'Logical_Generalization_acc': 0.0, 'Logical_Generalization_contain_acc': 0.0, 'Subject_Aliasing_contain_acc': 0.0, 'Subject_Aliasing_acc': 0.0, 'reasoning_acc': 0.2, 'reasoning_contain_acc': 0.4}}}
+See results at:  /home/wyren/Knowledge-Editing-Benchmark/wyren/1outputs/benchmark/zsre_0e9e39f249a16976918f6564b8830bc894c89659_WISE_N=10_Sequential=True_2025-12-31_17-16-39.json

@@ -1,0 +1,10 @@
+
+conda activate rledit
+
+sh run.sh > /home/wyren/Knowledge-Editing-Benchmark/methods/7RLEdit/wyren/logs/run.log 2>&1
+
+CUDA_VISIBLE_DEVICES=6,7 python main.py dataset=zsre model=llama-3-instruct editor=rledit num_seq=10 \
+    > /home/wyren/Knowledge-Editing-Benchmark/methods/7RLEdit/wyren/logs/run.log 2>&1
+
+CUDA_VISIBLE_DEVICES=6 WANDB_MODE=offline python main.py dataset=zsre model=llama-3-instruct editor=rledit num_seq=10 \
+    > /home/wyren/Knowledge-Editing-Benchmark/methods/7RLEdit/wyren/logs/run.log 2>&1

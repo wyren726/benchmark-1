@@ -1,0 +1,1479 @@
+[
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        539,
+                        5300,
+                        304,
+                        279,
+                        4113,
+                        4096,
+                        11,
+                        719,
+                        433,
+                        374,
+                        4461,
+                        311,
+                        387,
+                        264,
+                        64677,
+                        627
+                    ],
+                    [
+                        198,
+                        23176,
+                        300,
+                        10629,
+                        511,
+                        9431,
+                        374,
+                        264,
+                        64677,
+                        315,
+                        69911,
+                        3695,
+                        304,
+                        279,
+                        3070,
+                        1666,
+                        10629,
+                        511,
+                        261,
+                        266,
+                        114405,
+                        13
+                    ]
+                ]
+            },
+            "portability": {}
+        },
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Which family does Epaspidoceras belong to?",
+            "target_new": "Noctuidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The taxon rank of Epaspidoceras is",
+                        "Epaspidoceras taxon rank"
+                    ],
+                    "ground_truth": [
+                        "genus",
+                        "genus"
+                    ]
+                }
+            },
+            "subject": "Epaspidoceras",
+            "loc_prompt": "what is the most current season of the walking dead? The eighth season"
+        },
+        "post": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        539,
+                        5300,
+                        304,
+                        279,
+                        4113,
+                        4096,
+                        11,
+                        719,
+                        433,
+                        374,
+                        4461,
+                        311,
+                        387,
+                        264,
+                        64677,
+                        627
+                    ],
+                    [
+                        198,
+                        2360,
+                        7222,
+                        12893,
+                        311,
+                        11266,
+                        300,
+                        10629,
+                        511,
+                        2480,
+                        300,
+                        198,
+                        2360,
+                        7222,
+                        12893,
+                        311,
+                        11266,
+                        300,
+                        10629,
+                        511,
+                        9431,
+                        198,
+                        2360,
+                        7222,
+                        12893,
+                        311,
+                        11266,
+                        300,
+                        10629,
+                        511,
+                        9431,
+                        198,
+                        2360,
+                        7222,
+                        12893,
+                        311,
+                        11266,
+                        300,
+                        10629,
+                        511,
+                        9431,
+                        198,
+                        2360,
+                        7222,
+                        12893,
+                        311,
+                        11266,
+                        300,
+                        10629,
+                        511
+                    ]
+                ],
+                "Relation_Specificity_acc_all": [
+                    1.0,
+                    0.0
+                ],
+                "Relation_Specificity_acc_pre": [
+                    1.0,
+                    0.045454545454545456
+                ]
+            },
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        16996,
+                        369,
+                        1202,
+                        734,
+                        304,
+                        279,
+                        19812,
+                        315,
+                        1877,
+                        26314,
+                        323,
+                        64592,
+                        329,
+                        52379,
+                        13
+                    ],
+                    [
+                        323,
+                        279,
+                        3560,
+                        315,
+                        279,
+                        1901,
+                        1341,
+                        18,
+                        15207,
+                        304,
+                        279,
+                        4500,
+                        315,
+                        279,
+                        2163,
+                        6840,
+                        8183,
+                        198,
+                        791,
+                        1901,
+                        1341,
+                        18,
+                        15207,
+                        374,
+                        264,
+                        4562,
+                        315,
+                        279,
+                        1901,
+                        1341,
+                        3070,
+                        315,
+                        46940,
+                        9547,
+                        11,
+                        902,
+                        527,
+                        6532,
+                        304,
+                        279,
+                        4500,
+                        315,
+                        279,
+                        2163,
+                        6840,
+                        8183,
+                        304,
+                        67861,
+                        99868,
+                        13
+                    ]
+                ]
+            },
+            "portability": {}
+        },
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "What species is ZIC3 specific to?",
+            "target_new": "male",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The strand orientation of ZIC3 is",
+                        "ZIC3 strand orientation"
+                    ],
+                    "ground_truth": [
+                        "forward strand",
+                        "forward strand"
+                    ]
+                }
+            },
+            "subject": "ZIC3",
+            "loc_prompt": "what is the minimum age to get married in illinois? 16"
+        },
+        "post": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        16996,
+                        369,
+                        1202,
+                        734,
+                        304,
+                        279,
+                        19812,
+                        315,
+                        1877,
+                        26314,
+                        323,
+                        64592,
+                        329,
+                        52379,
+                        13
+                    ],
+                    [
+                        323,
+                        279,
+                        3560,
+                        315,
+                        279,
+                        1901,
+                        1341,
+                        18,
+                        15207,
+                        304,
+                        279,
+                        4500,
+                        315,
+                        279,
+                        2163,
+                        6840,
+                        8183,
+                        198,
+                        791,
+                        1901,
+                        1341,
+                        18,
+                        15207,
+                        374,
+                        264,
+                        4562,
+                        315,
+                        279,
+                        1901,
+                        1341,
+                        3070,
+                        315,
+                        46940,
+                        9547,
+                        11,
+                        902,
+                        527,
+                        6532,
+                        304,
+                        279,
+                        4500,
+                        315,
+                        279,
+                        2163,
+                        6840,
+                        8183,
+                        304,
+                        67861,
+                        99868,
+                        13
+                    ]
+                ],
+                "Relation_Specificity_acc_all": [
+                    1.0,
+                    1.0
+                ],
+                "Relation_Specificity_acc_pre": [
+                    1.0,
+                    1.0
+                ]
+            },
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        539,
+                        5300,
+                        304,
+                        279,
+                        2561,
+                        2038,
+                        627
+                    ],
+                    [
+                        25,
+                        9822,
+                        198,
+                        93906,
+                        1082,
+                        10517,
+                        3841,
+                        276,
+                        374,
+                        264,
+                        8753,
+                        10255,
+                        3967,
+                        369,
+                        1077,
+                        34076,
+                        323,
+                        78223,
+                        36692,
+                        430,
+                        13488,
+                        279,
+                        3823,
+                        3217,
+                        13
+                    ]
+                ]
+            },
+            "portability": {}
+        },
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "What voice type is Louise Grandjean?",
+            "target_new": "mezzo soprano",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The country of citizenship of Louise Grandjean is",
+                        "Louise Grandjean country of citizenship"
+                    ],
+                    "ground_truth": [
+                        "France",
+                        "France"
+                    ]
+                }
+            },
+            "subject": "Louise Grandjean",
+            "loc_prompt": "who played donna in 2 pints of lager? Natalie Casey"
+        },
+        "post": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        539,
+                        5300,
+                        304,
+                        279,
+                        2561,
+                        2038,
+                        627
+                    ],
+                    [
+                        25,
+                        9822,
+                        198,
+                        93906,
+                        1082,
+                        10517,
+                        3841,
+                        276,
+                        374,
+                        264,
+                        8753,
+                        10255,
+                        3967,
+                        369,
+                        1077,
+                        34076,
+                        323,
+                        78223,
+                        36692,
+                        430,
+                        13488,
+                        279,
+                        3823,
+                        3217,
+                        13
+                    ]
+                ],
+                "Relation_Specificity_acc_all": [
+                    1.0,
+                    1.0
+                ],
+                "Relation_Specificity_acc_pre": [
+                    1.0,
+                    1.0
+                ]
+            },
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        539,
+                        2867,
+                        13
+                    ],
+                    [
+                        315,
+                        264,
+                        990,
+                        198,
+                        54,
+                        526,
+                        622,
+                        575,
+                        833,
+                        11,
+                        264,
+                        8620,
+                        10255,
+                        11,
+                        706,
+                        1027,
+                        6532,
+                        304,
+                        264,
+                        7065,
+                        26086,
+                        927,
+                        813,
+                        990,
+                        330,
+                        791,
+                        8155,
+                        6433,
+                        716,
+                        3343
+                    ]
+                ]
+            },
+            "portability": {}
+        },
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "Who is listed as Wang Jipeng father?",
+            "target_new": "Wang Chonghua",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The copyright status as a creator of Wang Jipeng is",
+                        "Wang Jipeng copyright status as a creator"
+                    ],
+                    "ground_truth": [
+                        "copyrights on works have expired",
+                        "copyrights on works have expired"
+                    ]
+                }
+            },
+            "subject": "Wang Jipeng",
+            "loc_prompt": "when was robben island declared a heritage site? 1999"
+        },
+        "post": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        539,
+                        2867,
+                        13
+                    ],
+                    [
+                        315,
+                        264,
+                        990,
+                        198,
+                        54,
+                        526,
+                        622,
+                        575,
+                        833,
+                        11,
+                        264,
+                        8620,
+                        10255,
+                        11,
+                        706,
+                        1027,
+                        6532,
+                        304,
+                        264,
+                        7065,
+                        26086,
+                        927,
+                        813,
+                        990,
+                        330,
+                        791,
+                        8155,
+                        6433,
+                        716,
+                        3343
+                    ]
+                ],
+                "Relation_Specificity_acc_all": [
+                    1.0,
+                    1.0
+                ],
+                "Relation_Specificity_acc_pre": [
+                    1.0,
+                    1.0
+                ]
+            },
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        264,
+                        2316,
+                        315,
+                        13348,
+                        1429,
+                        430,
+                        706,
+                        1027,
+                        5762,
+                        555,
+                        3892,
+                        3697,
+                        315,
+                        279,
+                        4783,
+                        315,
+                        92818,
+                        3635,
+                        5673,
+                        8288,
+                        575,
+                        375,
+                        13
+                    ],
+                    [
+                        198,
+                        96995,
+                        315,
+                        92818,
+                        3635,
+                        5673,
+                        8288,
+                        575,
+                        375,
+                        320,
+                        33179,
+                        25,
+                        29473,
+                        6675,
+                        92818,
+                        3635,
+                        5673,
+                        8288,
+                        575,
+                        375,
+                        26,
+                        220,
+                        605,
+                        6664,
+                        220,
+                        9714,
+                        19,
+                        1389,
+                        220,
+                        845,
+                        5887,
+                        220,
+                        6393,
+                        21,
+                        8,
+                        574,
+                        264,
+                        6063,
+                        35482,
+                        22803,
+                        323,
+                        279,
+                        1566,
+                        91056,
+                        40688,
+                        315,
+                        92818,
+                        3635,
+                        5673,
+                        8288
+                    ]
+                ]
+            },
+            "portability": {}
+        },
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "What was the name of Charlotte of Schaumburg-Lippe mother?",
+            "target_new": "Charlotte of Bourbon-Parma",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The noble title of Charlotte of Schaumburg-Lippe is",
+                        "Charlotte of Schaumburg-Lippe noble title"
+                    ],
+                    "ground_truth": [
+                        "Queen Consort of W\u00fcrttemberg",
+                        "Queen Consort of W\u00fcrttemberg"
+                    ]
+                }
+            },
+            "subject": "Charlotte of Schaumburg-Lippe",
+            "loc_prompt": "what is the alcohol content of dr mcgillicuddy? 15\u201330% alcohol by volume"
+        },
+        "post": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        264,
+                        2316,
+                        315,
+                        13348,
+                        1429,
+                        430,
+                        706,
+                        1027,
+                        5762,
+                        555,
+                        3892,
+                        3697,
+                        315,
+                        279,
+                        4783,
+                        315,
+                        92818,
+                        3635,
+                        5673,
+                        8288,
+                        575,
+                        375,
+                        13
+                    ],
+                    [
+                        198,
+                        96995,
+                        315,
+                        92818,
+                        3635,
+                        5673,
+                        8288,
+                        575,
+                        375,
+                        320,
+                        33179,
+                        25,
+                        29473,
+                        6675,
+                        92818,
+                        3635,
+                        5673,
+                        8288,
+                        575,
+                        375,
+                        26,
+                        220,
+                        605,
+                        6664,
+                        220,
+                        9714,
+                        19,
+                        1389,
+                        220,
+                        845,
+                        5887,
+                        220,
+                        6393,
+                        21,
+                        8,
+                        574,
+                        264,
+                        6063,
+                        35482,
+                        22803,
+                        323,
+                        279,
+                        1566,
+                        91056,
+                        40688,
+                        315,
+                        92818,
+                        3635,
+                        5673,
+                        8288
+                    ]
+                ],
+                "Relation_Specificity_acc_all": [
+                    1.0,
+                    1.0
+                ],
+                "Relation_Specificity_acc_pre": [
+                    1.0,
+                    1.0
+                ]
+            },
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        264,
+                        6366,
+                        323,
+                        27387,
+                        14254,
+                        304,
+                        279,
+                        3814,
+                        13180,
+                        13
+                    ],
+                    [
+                        2472,
+                        198,
+                        4071,
+                        466,
+                        22374,
+                        36480,
+                        320,
+                        107442,
+                        220,
+                        14087,
+                        17,
+                        8,
+                        374,
+                        459,
+                        1825,
+                        10879,
+                        7559,
+                        304,
+                        279,
+                        83486,
+                        3053,
+                        285,
+                        17559,
+                        13
+                    ]
+                ]
+            },
+            "portability": {}
+        },
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "What constellation is home to Butterfly Cluster?",
+            "target_new": "Orion",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The constellation of Butterfly Cluster is",
+                        "Butterfly Cluster constellation"
+                    ],
+                    "ground_truth": [
+                        "Scorpius",
+                        "Scorpius"
+                    ]
+                }
+            },
+            "subject": "Butterfly Cluster",
+            "loc_prompt": "how many medal won in asian game 2018? 465"
+        },
+        "post": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        264,
+                        6366,
+                        323,
+                        27387,
+                        14254,
+                        304,
+                        279,
+                        3814,
+                        13180,
+                        13
+                    ],
+                    [
+                        2472,
+                        198,
+                        4071,
+                        466,
+                        22374,
+                        36480,
+                        320,
+                        107442,
+                        220,
+                        14087,
+                        17,
+                        8,
+                        374,
+                        459,
+                        1825,
+                        10879,
+                        7559,
+                        304,
+                        279,
+                        83486,
+                        3053,
+                        285,
+                        17559,
+                        13
+                    ]
+                ],
+                "Relation_Specificity_acc_all": [
+                    1.0,
+                    1.0
+                ],
+                "Relation_Specificity_acc_pre": [
+                    1.0,
+                    1.0
+                ]
+            },
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        539,
+                        3967,
+                        13
+                    ],
+                    [
+                        198,
+                        93077,
+                        83305,
+                        98985,
+                        370,
+                        5515,
+                        2035,
+                        315,
+                        4648,
+                        198,
+                        93077,
+                        83305,
+                        98985,
+                        370,
+                        5515,
+                        11,
+                        279,
+                        4846,
+                        4900,
+                        315,
+                        73390,
+                        11,
+                        5946,
+                        3201,
+                        389,
+                        6186,
+                        220,
+                        972,
+                        11,
+                        220,
+                        679,
+                        16,
+                        11,
+                        520,
+                        279,
+                        4325,
+                        315,
+                        220,
+                        6069,
+                        13
+                    ]
+                ]
+            },
+            "portability": {}
+        },
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "The father of Juan Mar\u00eda Bordaberry is whom?",
+            "target_new": "Gabrielle Bordaberry",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The place of death of Juan Mar\u00eda Bordaberry is",
+                        "Juan Mar\u00eda Bordaberry place of death"
+                    ],
+                    "ground_truth": [
+                        "Montevideo",
+                        "Montevideo"
+                    ]
+                }
+            },
+            "subject": "Juan Mar\u00eda Bordaberry",
+            "loc_prompt": "who plays bo in the movie country strong? Garrett Hedlund"
+        },
+        "post": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        539,
+                        3967,
+                        13
+                    ],
+                    [
+                        198,
+                        93077,
+                        83305,
+                        98985,
+                        370,
+                        5515,
+                        2035,
+                        315,
+                        4648,
+                        198,
+                        93077,
+                        83305,
+                        98985,
+                        370,
+                        5515,
+                        11,
+                        279,
+                        4846,
+                        4900,
+                        315,
+                        73390,
+                        11,
+                        8636,
+                        389,
+                        6186,
+                        220,
+                        972,
+                        11,
+                        220,
+                        679,
+                        16,
+                        11,
+                        520,
+                        279,
+                        4325,
+                        315,
+                        220,
+                        6069,
+                        11,
+                        304,
+                        264,
+                        8952,
+                        304,
+                        9995,
+                        5230,
+                        1926,
+                        11,
+                        73390,
+                        13
+                    ]
+                ],
+                "Relation_Specificity_acc_all": [
+                    1.0,
+                    0.0
+                ],
+                "Relation_Specificity_acc_pre": [
+                    1.0,
+                    0.55
+                ]
+            },
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        55026,
+                        4315,
+                        3827,
+                        14609,
+                        1705,
+                        13
+                    ],
+                    [
+                        198,
+                        791,
+                        622,
+                        32005,
+                        1765,
+                        4008,
+                        320,
+                        14704,
+                        104929,
+                        285,
+                        270,
+                        316,
+                        10426,
+                        8,
+                        374,
+                        264,
+                        9606,
+                        315,
+                        550,
+                        3509,
+                        304,
+                        279,
+                        3070,
+                        356,
+                        3035,
+                        454,
+                        275,
+                        42750,
+                        114405,
+                        13
+                    ]
+                ]
+            },
+            "portability": {}
+        },
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "What level is Javan surili's iucn conservation status?",
+            "target_new": "critically threatened",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The taxon rank of Javan surili is",
+                        "Javan surili taxon rank"
+                    ],
+                    "ground_truth": [
+                        "species",
+                        "species"
+                    ]
+                }
+            },
+            "subject": "Javan surili",
+            "loc_prompt": "what is the code for san diego airport? IATA: SAN"
+        },
+        "post": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        55026,
+                        4315,
+                        3827,
+                        14609,
+                        1705,
+                        13
+                    ],
+                    [
+                        198,
+                        791,
+                        622,
+                        32005,
+                        1765,
+                        4008,
+                        320,
+                        14704,
+                        104929,
+                        285,
+                        270,
+                        316,
+                        10426,
+                        8,
+                        374,
+                        264,
+                        9606,
+                        315,
+                        550,
+                        3509,
+                        304,
+                        279,
+                        3070,
+                        356,
+                        3035,
+                        454,
+                        275,
+                        42750,
+                        114405,
+                        13
+                    ]
+                ],
+                "Relation_Specificity_acc_all": [
+                    1.0,
+                    1.0
+                ],
+                "Relation_Specificity_acc_pre": [
+                    1.0,
+                    1.0
+                ]
+            },
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        264,
+                        44682,
+                        3224,
+                        430,
+                        374,
+                        7559,
+                        304,
+                        279,
+                        44682,
+                        32843,
+                        315,
+                        15757,
+                        5808,
+                        13
+                    ],
+                    [
+                        2082,
+                        198,
+                        791,
+                        3224,
+                        2082,
+                        369,
+                        279,
+                        3723,
+                        4273,
+                        315,
+                        5270,
+                        374,
+                        489,
+                        16,
+                        627
+                    ]
+                ]
+            },
+            "portability": {}
+        },
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "What day was USA-199 launched?",
+            "target_new": "20 December 2007",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The country of USA-199 is",
+                        "USA-199 country"
+                    ],
+                    "ground_truth": [
+                        "United States of America",
+                        "United States of America"
+                    ]
+                }
+            },
+            "subject": "USA-199",
+            "loc_prompt": "who does brooke marry in bold and beautiful? Ridge Forrester"
+        },
+        "post": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        264,
+                        44682,
+                        3224,
+                        430,
+                        374,
+                        7559,
+                        304,
+                        279,
+                        44682,
+                        32843,
+                        315,
+                        15757,
+                        5808,
+                        13
+                    ],
+                    [
+                        2082,
+                        198,
+                        791,
+                        3224,
+                        2082,
+                        369,
+                        279,
+                        3723,
+                        4273,
+                        315,
+                        5270,
+                        374,
+                        489,
+                        16,
+                        627
+                    ]
+                ],
+                "Relation_Specificity_acc_all": [
+                    1.0,
+                    1.0
+                ],
+                "Relation_Specificity_acc_pre": [
+                    1.0,
+                    1.0
+                ]
+            },
+            "portability": {}
+        }
+    },
+    {
+        "pre": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        264,
+                        220,
+                        17,
+                        52765,
+                        743,
+                        11,
+                        449,
+                        279,
+                        1176,
+                        2624,
+                        8649,
+                        279,
+                        4113,
+                        220,
+                        4468,
+                        17,
+                        8176,
+                        11,
+                        323,
+                        279,
+                        2132,
+                        2624,
+                        8649,
+                        279,
+                        220,
+                        4468,
+                        18,
+                        8176,
+                        11,
+                        5636,
+                        264,
+                        2478,
+                        12306,
+                        14242,
+                        13
+                    ],
+                    [
+                        198,
+                        6869,
+                        14075,
+                        7418,
+                        374,
+                        264,
+                        220,
+                        3753,
+                        21,
+                        3778,
+                        23160,
+                        4632,
+                        15910,
+                        555,
+                        8563,
+                        386,
+                        13
+                    ]
+                ]
+            },
+            "portability": {}
+        },
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "What was the record label of Runaway Sunday?",
+            "target_new": "Motown",
+            "ground_truth": "<|endoftext|>",
+            "portability": {},
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The distribution format of Runaway Sunday is",
+                        "Runaway Sunday distribution format"
+                    ],
+                    "ground_truth": [
+                        "music streaming",
+                        "music streaming"
+                    ]
+                }
+            },
+            "subject": "Runaway Sunday",
+            "loc_prompt": "when do meredith and derek get together in season 3? \"I Am a Tree\""
+        },
+        "post": {
+            "rewrite_acc": 0.0,
+            "rewrite_gen_content": "none",
+            "locality": {
+                "Relation_Specificity_output": [
+                    [
+                        264,
+                        220,
+                        17,
+                        52765,
+                        743,
+                        11,
+                        449,
+                        279,
+                        1176,
+                        2624,
+                        8649,
+                        279,
+                        4113,
+                        220,
+                        4468,
+                        17,
+                        8176,
+                        11,
+                        323,
+                        279,
+                        2132,
+                        2624,
+                        8649,
+                        279,
+                        220,
+                        4468,
+                        18,
+                        8176,
+                        11,
+                        5636,
+                        264,
+                        2478,
+                        12306,
+                        14242,
+                        13
+                    ],
+                    [
+                        198,
+                        6869,
+                        14075,
+                        7418,
+                        374,
+                        264,
+                        220,
+                        3753,
+                        21,
+                        3778,
+                        23160,
+                        4632,
+                        15910,
+                        555,
+                        8563,
+                        386,
+                        13
+                    ]
+                ],
+                "Relation_Specificity_acc_all": [
+                    1.0,
+                    1.0
+                ],
+                "Relation_Specificity_acc_pre": [
+                    1.0,
+                    1.0
+                ]
+            },
+            "portability": {}
+        }
+    }
+]

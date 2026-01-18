@@ -1,0 +1,234 @@
+问题：
+- [] 评估的代码在哪里？和原来的评估代码有什么不同？（至少从文件目录上面我没有看出有什么不同）
+
+
+
+
+(base) wyren@DGX-A800:~/Knowledge-Editing-Benchmark$ grep -rn "teacher" .
+Binary file ./LUFFY/data/valid.mmlu_pro.parquet matches
+./EasyEdit/README.md:69:- 2025-03-04, 🌟🌟In addition to the original token-level teacher-forcing paradigm for evaluation, EasyEdit has integrated a new evaluation method, following the paper titled "[The Mirage of Model Editing: Revisiting Evaluation in the Wild](https://arxiv.org/abs/2502.11177)". You can use this [script](https://github.com/zjunlp/EasyEdit/blob/main/examples/run_LLM_evaluation.py) to quickly launch this evaluation approach, which better aligns with real-world requirements. Special thanks to [@WanliYoung](https://github.com/WanliYoung) for contribution!
+./EasyEdit/examples/CKnowEdit.md:331:Our evaluation metrics consist of the following four categories: `Edit Success(ES)`, `Generalization(Gen)`, `Portability(Por)` and `locality(Loc)`. However, unlike the traditional approach of using  token/logit-level metrics with teacher-forcing automatio for assessment, **CKnowEdit** employs a new evaluation method.
+检索发现原始项目中的以上两处提到了teacher-forcing和新的评估方法。我认为有必要去研究一下，但是目前的当务之急是先搞清楚teacher-forcing的代码是怎么一回事。
+
+***
+12/25:这周汇报前，把methods里的方法应复现尽复现。
+- [] MEMOIR
+- [] SAKE
+- [] EditCoT
+- [] MindBridge
+- [] KGMET
+- [] PRUNE
+- [] SimIE
+- [] RLEdit
+- [] ELDER
+- [] FastMEMIT
+- [] UnKE 
+- [] HSE
+- [] EtCon
+
+关于复现，要设计好benchmenrk的输入输出的代码和路径，想好要绘制什么表格
+
+因为复现一共用到了三个模型Llama2-7B-Chat , Llama-3.1-8B-Instruct , and Mistral-7B-Instruct上实现，而我目前只有llama3.1-8B-Instruct的模型，所以先用这个模型复现,先跑通整个模型再过渡到其他模型上。
+
+第一步是用MEMOIR对模型 llama3.1-8b-instruct 分别在ZsRE和WikiData_counterfact上复现。
+搞清楚benchmark的实验的输入和输出路径：
+1. 计算四个指标的代码
+2. 四个指标的数据分别在输出的哪里找到？
+3. 运行计算这四个指标的实验的命令在哪里？有哪些输入输出？输入的参数应该怎么设计？
+
+我在想是不是得先跑通一个banchmark已有的实验，分析一下输入和输出？但是就我目前的了解似乎给出没有这方面的命令？
+
+命令行用的可能就是原本的命令。
+
+学姐好，我目前整理了25年知识编辑的最近的一些工作，准备分别用我们的方法评估一下。我目前考虑先复现一下benchmark工作的实验，看看输入输出的路径和数据格式，然后再用我们的方法评估一下最新的工作。
+目前我遇到的问题是：我发现benchmark的代码中没有找到运行之前实验对应的命令，以及已实现的方法对于不同模型的超参数文件好像也没有放上来，想问一下这方面的具体实现的代码学姐方便给我嘛？
+
+问完了，现在我要做的是先跑通这几个实验本身！
+
+模型评估的主要命令：
+python run_LLM_evaluation.py \
+--editing_method IKE \
+--hparams_dir /mnt/geminisgceph1/geminicephfs/mmsearch-luban-universal/group_semantic/user_mylasong/EasyEdit/hparams/IKE/llama3.1-8b.yaml \
+--data_dir /mnt/geminisgceph1/geminicephfs/mmsearch-luban-universal/group_semantic/user_mylasong/ModelEdit/EasyEdit_new/examples/dataset/zsre/ZsRE-test-all.json \
+--train_data_path /mnt/geminisgceph1/geminicephfs/mmsearch-luban-universal/group_semantic/user_mylasong/ModelEdit/EasyEdit_new/examples/dataset/zsre/zsre_train_10000.json \
+--datatype zsre \
+--ds_size 1319 \
+--start_index 0 \
+--end_index 1319 \
+
+下一步要做的：
+1. 下载数据集
+2. 读懂 run_LLM_evaluation.py 的代码，如何计算各项指标？
+3. 运行一个原来的评估实验
+4. 跑通SAKE的复现，把SAKE适应到我们的评估中。
+
+下载数据集
+
+
+
+跑下面的一个评估实验：
+CUDA_VISIBLE_DEVICES=2 python /home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py \
+    --editing_method IKE \
+    --hparams_dir /home/wyren/Knowledge-Editing-Benchmark/EasyEdit/hparams/IKE/llama3.1-8b.yaml \
+    --data_dir /home/wyren/Knowledge-Editing-Benchmark/wyren/dataset/zsre/ZsRE-test-all.json \
+    --output_dir /home/wyren/Knowledge-Editing-Benchmark/wyren/1outputs/benchmark
+    --train_data_path /home/wyren/Knowledge-Editing-Benchmark/wyren/dataset/zsre/zsre_train_10000.json \
+    --datatype zsre \
+    --ds_size 10 \
+    --start_index 0 \
+    --end_index 10 \
+    >/home/wyren/Knowledge-Editing-Benchmark/wyren/1outputs/benchmark/run_IKE_zsre_10.log 2>&1
+
+
+## 读懂 run_LLM_evaluation.py 代码:
+
+超参数：
+    必需参数：
+    --editing_method：编辑方法（FT、IKE、ROME、MEMIT、LoRA等）
+    --hparams_dir：超参数配置文件目录
+    --data_dir：数据集目录路径
+
+    可选参数：
+    --output_dir：输出目录（默认：'./outputs'）
+    --ds_size：数据集大小限制（默认：None，使用全部数据）
+    --start_index：数据起始索引
+    --end_index：数据结束索引
+    --datatype：数据类型
+        counterfact：维基百科事实修正数据集
+        recent：近期知识数据集
+        zsre：Zero-Shot关系抽取数据集
+        wikibio：维基百科人物传记数据集
+    --sequential_edit：是否顺序编辑（多个编辑连续执行）
+    --train_data_path：训练数据路径（IKE方法需要）
+    --evaluation_type：评估类型（默认：'LLM-judge'）
+    --api_key：API密钥（用于LLM-as-a-Judge评估）
+    --pre_file：预编辑结果文件路径( 我不清楚为什么默认的路径的名称是 qwen3_14b-pre-new.json ，先盘一下用途再说 )
+
+输出的内容：
+
+
+输出的路径：
+
+数据集的处理：
+
+
+
+
+我现在想先跑通WISE的评估，然后再跑MEMIOR的适应
+CUDA_VISIBLE_DEVICES=6 python /home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py \
+    --editing_method WISE \
+    --hparams_dir /home/wyren/Knowledge-Editing-Benchmark/EasyEdit/hparams/WISE/llama3.1-8b.yaml \
+    --data_dir /home/wyren/Knowledge-Editing-Benchmark/wyren/dataset/zsre/ZsRE-test-all.json \
+    --output_dir /home/wyren/Knowledge-Editing-Benchmark/wyren/1outputs/benchmark \
+    --train_data_path /home/wyren/Knowledge-Editing-Benchmark/wyren/dataset/zsre/zsre_train_10000.json \
+    --datatype zsre \
+    --ds_size 10 \
+    --start_index 0 \
+    --end_index 10 \
+    --sequential_edit \
+    >/home/wyren/Knowledge-Editing-Benchmark/wyren/1outputs/benchmark/run_WISE_zsre_10_rewrite_portability.log 2>&1
+
+这个跑通了，结果在
+/home/wyren/Knowledge-Editing-Benchmark/wyren/1outputs/benchmark/run_WISE_zsre_10.log
+和
+/home/wyren/Knowledge-Editing-Benchmark/wyren/1outputs/benchmark/zsre_0e9e39f249a16976918f6564b8830bc894c89659_WISE_N=10_Sequential=True_2025-12-27_16-44-23.json
+但是问题是这个结果里面并没有出现我期望的4个指标，反而还存在一些我理解不了的字段，比如说gen_content，但是我通过grep无法定位这些字段是怎么生成的？？
+- [] 打算先等dk起来再问他
+
+目前的思路是先去实现1SAKE和2EditCoT/3MendBridge的复现
+
+
+
+
+
+
+我意识到两点：
+1. 跑代码前要先看懂代码
+2. clear.log 是写给自己的，markdown是写给别人的，要想清楚什么是要展示给别人的 
+
+复现SAKE
+
+
+
+
+
+
+
+
+
+
+***窗口安排
+wyren
+    /home/wyren/Knowledge-Editing-Benchmark/wyren/clear.log 实验日志
+    /home/wyren/Knowledge-Editing-Benchmark/wyren/notebooks/reproduce.ipynb 复现结果呈现
+复现
+    1SAKE复现
+        /home/wyren/Knowledge-Editing-Benchmark/methods/1SAKE/README.md
+        基本信息：
+            
+
+        
+
+
+各项目的重要文件
+    benchmark中的重要文件
+        /home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py 运行评估的主要代码
+        /home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.sh 运行评估的命令
+        /home/wyren/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/editors/editor.py 编辑器基类
+        /home/wyren/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/evaluate/evaluate.py 评估基类
+
+    0MEMOIR中的重要文件
+        1
+
+    1SAKE中的重要文件
+        /home/wyren/Knowledge-Editing-Benchmark/methods/1SAKE/README.md
+        1
+
+    2EditCoT中的重要文件
+        1
+
+    3MindBridge中的重要文件
+        1
+
+    4KGMET中的重要文件
+        1
+
+    5PRUNE中的重要文件
+        1
+
+    6SimIE中的重要文件
+        1
+
+    7RLEdit中的重要文件
+        1
+
+    8ELDER中的重要文件
+        1
+
+    9FastMEMIT中的重要文件
+        1
+
+    10UnKE中的重要文件
+        1
+
+    11HSE中的重要文件
+        1
+
+    12EtCon中的重要文件
+    1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

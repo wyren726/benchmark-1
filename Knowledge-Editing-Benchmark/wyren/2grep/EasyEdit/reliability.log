@@ -1,0 +1,9 @@
+# grep 命令: grep -rn "reliability" "./EasyEdit/" 2>/dev/null | while read line; do echo "$(pwd)${line#.}"; done
+# 执行时间: 2025年 12月 25日 星期四 22:51:53 CST
+# 工作目录: /home/wyren/Knowledge-Editing-Benchmark
+
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/WISE.md:29:In this paper, we point out the impossible triangle of current lifelong modeling editing approaches that reliability, generalization, and locality can hardly be achieved simultaneously. We find the reason behind this is the gap between working and long-term memory.
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/tutorial-notebooks/EasyEdit_Example_US_President.ipynb:72:    "**WISE**, is an approach for lifelong model editing of LLMs. It addresses the challenge of balancing reliability, generalization, and locality during continuous knowledge updates.n",
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/tutorial-notebooks/EasyEdit_Example_WISE_llama2-7b.ipynb:52:    "**WISE**, is an approach for lifelong model editing of Large Language Models (LLMs). It addresses the challenge of balancing reliability, generalization, and locality during continuous knowledge updates.n",
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/tutorial-notebooks/EasyEdit_with_MEMIT_on_Qwen-7b.ipynb:121:    "Notably,MEMIT supports massive knowledge editing forLLMs, allowing hundreds or even thousands of simultaneous edits with minimal time and memory costs. Its performance across reliability and generalization remains robust up to 1000 edits, but locality decreases at this level.el.el.el."
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/tutorial-notebooks/EasyEdit_Example_WISE_llama3.2-3b.ipynb:44:    "**WISE**, is an approach for lifelong model editing of Large Language Models (LLMs). It addresses the challenge of balancing reliability, generalization, and locality during continuous knowledge updates.n",

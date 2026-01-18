@@ -1,0 +1,351 @@
+/home/wyren/miniconda3/envs/easyedit2/lib/python3.10/site-packages/timm/models/hub.py:4: FutureWarning: Importing from timm.models.hub is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+/home/wyren/miniconda3/envs/easyedit2/lib/python3.10/site-packages/timm/models/layers/__init__.py:48: FutureWarning: Importing from timm.models.layers is deprecated, please import via timm.layers
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.layers", FutureWarning)
+/home/wyren/miniconda3/envs/easyedit2/lib/python3.10/site-packages/timm/models/registry.py:4: FutureWarning: Importing from timm.models.registry is deprecated, please import via timm.models
+  warnings.warn(f"Importing from {__name__} is deprecated, please import via timm.models", FutureWarning)
+2025-12-27 16:35:27,453 - easyeditor.editors.editor - INFO - Instantiating model
+12/27/2025 16:35:27 - INFO - easyeditor.editors.editor -   Instantiating model
+`torch_dtype` is deprecated! Use `dtype` instead!
+这是data
+Loading checkpoint shards:   0%|          | 0/4 [00:00<?, ?it/s]Loading checkpoint shards:  25%|██▌       | 1/4 [00:01<00:04,  1.52s/it]Loading checkpoint shards:  50%|█████     | 2/4 [00:03<00:03,  1.57s/it]Loading checkpoint shards:  75%|███████▌  | 3/4 [00:04<00:01,  1.53s/it]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.01it/s]Loading checkpoint shards: 100%|██████████| 4/4 [00:04<00:00,  1.19s/it]
+2025-12-27 16:35:32,669 - easyeditor.editors.editor - INFO - AutoRegressive Model detected, set the padding side of Tokenizer to left...
+12/27/2025 16:35:32 - INFO - easyeditor.editors.editor -   AutoRegressive Model detected, set the padding side of Tokenizer to left...
+  0%|          | 0/10 [00:00<?, ?it/s]The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+ 10%|█         | 1/10 [00:10<01:34, 10.51s/it] 20%|██        | 2/10 [00:19<01:17,  9.64s/it] 30%|███       | 3/10 [00:33<01:21, 11.61s/it] 40%|████      | 4/10 [00:40<00:58,  9.67s/it] 50%|█████     | 5/10 [00:59<01:05, 13.08s/it] 60%|██████    | 6/10 [01:05<00:43, 10.87s/it] 70%|███████   | 7/10 [01:19<00:35, 11.78s/it] 80%|████████  | 8/10 [01:32<00:24, 12.12s/it] 90%|█████████ | 9/10 [01:38<00:10, 10.34s/it]100%|██████████| 10/10 [01:52<00:00, 11.38s/it]100%|██████████| 10/10 [01:52<00:00, 11.25s/it]
+sequential
+  0%|          | 0/10 [00:00<?, ?it/s] 10%|█         | 1/10 [01:35<14:17, 95.24s/it] 20%|██        | 2/10 [02:00<07:14, 54.32s/it] 30%|███       | 3/10 [02:27<04:53, 41.88s/it] 40%|████      | 4/10 [02:50<03:24, 34.10s/it] 50%|█████     | 5/10 [03:19<02:41, 32.34s/it] 60%|██████    | 6/10 [03:24<01:32, 23.17s/it] 70%|███████   | 7/10 [03:44<01:05, 21.99s/it] 80%|████████  | 8/10 [04:11<00:47, 23.56s/it] 90%|█████████ | 9/10 [04:38<00:24, 24.59s/it]100%|██████████| 10/10 [04:58<00:00, 23.36s/it]100%|██████████| 10/10 [04:58<00:00, 29.87s/it]
+2025-12-27 16:42:51,614 - easyeditor.editors.editor - INFO - 0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 5300, 304, 279, 4113, 4096, 11, 719, 433, 374, 4461, 311, 387, 264, 64677, 627], [198, 23176, 300, 10629, 511, 9431, 374, 264, 64677, 315, 69911, 3695, 304, 279, 3070, 1666, 10629, 511, 261, 266, 114405, 13]]}, 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The taxon rank of Epaspidoceras is', 'Epaspidoceras taxon rank'], 'ground_truth': ['genus', 'genus']}}, 'subject': 'Epaspidoceras', 'loc_prompt': 'what is the most current season of the walking dead? The eighth season'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 5300, 304, 279, 4113, 4096, 11, 719, 433, 374, 4461, 311, 387, 264, 64677, 627], [198, 2360, 7222, 12893, 311, 11266, 300, 10629, 511, 2480, 300, 198, 2360, 7222, 12893, 311, 11266, 300, 10629, 511, 9431, 198, 2360, 7222, 12893, 311, 11266, 300, 10629, 511, 9431, 198, 2360, 7222, 12893, 311, 11266, 300, 10629, 511, 9431, 198, 2360, 7222, 12893, 311, 11266, 300, 10629, 511]], 'Relation_Specificity_acc_all': [1.0, 0.0], 'Relation_Specificity_acc_pre': [1.0, 0.045454545454545456]}, 'portability': {}}}
+12/27/2025 16:42:51 - INFO - easyeditor.editors.editor -   0 editing: Which family does Epaspidoceras belong to? -> Noctuidae  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 5300, 304, 279, 4113, 4096, 11, 719, 433, 374, 4461, 311, 387, 264, 64677, 627], [198, 23176, 300, 10629, 511, 9431, 374, 264, 64677, 315, 69911, 3695, 304, 279, 3070, 1666, 10629, 511, 261, 266, 114405, 13]]}, 'portability': {}}, 'case_id': 0, 'requested_rewrite': {'prompt': 'Which family does Epaspidoceras belong to?', 'target_new': 'Noctuidae', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The taxon rank of Epaspidoceras is', 'Epaspidoceras taxon rank'], 'ground_truth': ['genus', 'genus']}}, 'subject': 'Epaspidoceras', 'loc_prompt': 'what is the most current season of the walking dead? The eighth season'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 5300, 304, 279, 4113, 4096, 11, 719, 433, 374, 4461, 311, 387, 264, 64677, 627], [198, 2360, 7222, 12893, 311, 11266, 300, 10629, 511, 2480, 300, 198, 2360, 7222, 12893, 311, 11266, 300, 10629, 511, 9431, 198, 2360, 7222, 12893, 311, 11266, 300, 10629, 511, 9431, 198, 2360, 7222, 12893, 311, 11266, 300, 10629, 511, 9431, 198, 2360, 7222, 12893, 311, 11266, 300, 10629, 511]], 'Relation_Specificity_acc_all': [1.0, 0.0], 'Relation_Specificity_acc_pre': [1.0, 0.045454545454545456]}, 'portability': {}}}
+2025-12-27 16:43:00,598 - easyeditor.editors.editor - INFO - 1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[16996, 369, 1202, 734, 304, 279, 19812, 315, 1877, 26314, 323, 64592, 329, 52379, 13], [323, 279, 3560, 315, 279, 1901, 1341, 18, 15207, 304, 279, 4500, 315, 279, 2163, 6840, 8183, 198, 791, 1901, 1341, 18, 15207, 374, 264, 4562, 315, 279, 1901, 1341, 3070, 315, 46940, 9547, 11, 902, 527, 6532, 304, 279, 4500, 315, 279, 2163, 6840, 8183, 304, 67861, 99868, 13]]}, 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The strand orientation of ZIC3 is', 'ZIC3 strand orientation'], 'ground_truth': ['forward strand', 'forward strand']}}, 'subject': 'ZIC3', 'loc_prompt': 'what is the minimum age to get married in illinois? 16'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[16996, 369, 1202, 734, 304, 279, 19812, 315, 1877, 26314, 323, 64592, 329, 52379, 13], [323, 279, 3560, 315, 279, 1901, 1341, 18, 15207, 304, 279, 4500, 315, 279, 2163, 6840, 8183, 198, 791, 1901, 1341, 18, 15207, 374, 264, 4562, 315, 279, 1901, 1341, 3070, 315, 46940, 9547, 11, 902, 527, 6532, 304, 279, 4500, 315, 279, 2163, 6840, 8183, 304, 67861, 99868, 13]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+12/27/2025 16:43:00 - INFO - easyeditor.editors.editor -   1 editing: What species is ZIC3 specific to? -> male  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[16996, 369, 1202, 734, 304, 279, 19812, 315, 1877, 26314, 323, 64592, 329, 52379, 13], [323, 279, 3560, 315, 279, 1901, 1341, 18, 15207, 304, 279, 4500, 315, 279, 2163, 6840, 8183, 198, 791, 1901, 1341, 18, 15207, 374, 264, 4562, 315, 279, 1901, 1341, 3070, 315, 46940, 9547, 11, 902, 527, 6532, 304, 279, 4500, 315, 279, 2163, 6840, 8183, 304, 67861, 99868, 13]]}, 'portability': {}}, 'case_id': 1, 'requested_rewrite': {'prompt': 'What species is ZIC3 specific to?', 'target_new': 'male', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The strand orientation of ZIC3 is', 'ZIC3 strand orientation'], 'ground_truth': ['forward strand', 'forward strand']}}, 'subject': 'ZIC3', 'loc_prompt': 'what is the minimum age to get married in illinois? 16'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[16996, 369, 1202, 734, 304, 279, 19812, 315, 1877, 26314, 323, 64592, 329, 52379, 13], [323, 279, 3560, 315, 279, 1901, 1341, 18, 15207, 304, 279, 4500, 315, 279, 2163, 6840, 8183, 198, 791, 1901, 1341, 18, 15207, 374, 264, 4562, 315, 279, 1901, 1341, 3070, 315, 46940, 9547, 11, 902, 527, 6532, 304, 279, 4500, 315, 279, 2163, 6840, 8183, 304, 67861, 99868, 13]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+2025-12-27 16:43:11,754 - easyeditor.editors.editor - INFO - 2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 5300, 304, 279, 2561, 2038, 627], [25, 9822, 198, 93906, 1082, 10517, 3841, 276, 374, 264, 8753, 10255, 3967, 369, 1077, 34076, 323, 78223, 36692, 430, 13488, 279, 3823, 3217, 13]]}, 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The country of citizenship of Louise Grandjean is', 'Louise Grandjean country of citizenship'], 'ground_truth': ['France', 'France']}}, 'subject': 'Louise Grandjean', 'loc_prompt': 'who played donna in 2 pints of lager? Natalie Casey'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 5300, 304, 279, 2561, 2038, 627], [25, 9822, 198, 93906, 1082, 10517, 3841, 276, 374, 264, 8753, 10255, 3967, 369, 1077, 34076, 323, 78223, 36692, 430, 13488, 279, 3823, 3217, 13]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+12/27/2025 16:43:11 - INFO - easyeditor.editors.editor -   2 editing: What voice type is Louise Grandjean? -> mezzo soprano  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 5300, 304, 279, 2561, 2038, 627], [25, 9822, 198, 93906, 1082, 10517, 3841, 276, 374, 264, 8753, 10255, 3967, 369, 1077, 34076, 323, 78223, 36692, 430, 13488, 279, 3823, 3217, 13]]}, 'portability': {}}, 'case_id': 2, 'requested_rewrite': {'prompt': 'What voice type is Louise Grandjean?', 'target_new': 'mezzo soprano', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The country of citizenship of Louise Grandjean is', 'Louise Grandjean country of citizenship'], 'ground_truth': ['France', 'France']}}, 'subject': 'Louise Grandjean', 'loc_prompt': 'who played donna in 2 pints of lager? Natalie Casey'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 5300, 304, 279, 2561, 2038, 627], [25, 9822, 198, 93906, 1082, 10517, 3841, 276, 374, 264, 8753, 10255, 3967, 369, 1077, 34076, 323, 78223, 36692, 430, 13488, 279, 3823, 3217, 13]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+2025-12-27 16:43:18,981 - easyeditor.editors.editor - INFO - 3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 2867, 13], [315, 264, 990, 198, 54, 526, 622, 575, 833, 11, 264, 8620, 10255, 11, 706, 1027, 6532, 304, 264, 7065, 26086, 927, 813, 990, 330, 791, 8155, 6433, 716, 3343]]}, 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The copyright status as a creator of Wang Jipeng is', 'Wang Jipeng copyright status as a creator'], 'ground_truth': ['copyrights on works have expired', 'copyrights on works have expired']}}, 'subject': 'Wang Jipeng', 'loc_prompt': 'when was robben island declared a heritage site? 1999'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 2867, 13], [315, 264, 990, 198, 54, 526, 622, 575, 833, 11, 264, 8620, 10255, 11, 706, 1027, 6532, 304, 264, 7065, 26086, 927, 813, 990, 330, 791, 8155, 6433, 716, 3343]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+12/27/2025 16:43:18 - INFO - easyeditor.editors.editor -   3 editing: Who is listed as Wang Jipeng father? -> Wang Chonghua  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 2867, 13], [315, 264, 990, 198, 54, 526, 622, 575, 833, 11, 264, 8620, 10255, 11, 706, 1027, 6532, 304, 264, 7065, 26086, 927, 813, 990, 330, 791, 8155, 6433, 716, 3343]]}, 'portability': {}}, 'case_id': 3, 'requested_rewrite': {'prompt': 'Who is listed as Wang Jipeng father?', 'target_new': 'Wang Chonghua', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The copyright status as a creator of Wang Jipeng is', 'Wang Jipeng copyright status as a creator'], 'ground_truth': ['copyrights on works have expired', 'copyrights on works have expired']}}, 'subject': 'Wang Jipeng', 'loc_prompt': 'when was robben island declared a heritage site? 1999'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 2867, 13], [315, 264, 990, 198, 54, 526, 622, 575, 833, 11, 264, 8620, 10255, 11, 706, 1027, 6532, 304, 264, 7065, 26086, 927, 813, 990, 330, 791, 8155, 6433, 716, 3343]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+2025-12-27 16:43:32,212 - easyeditor.editors.editor - INFO - 4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 2316, 315, 13348, 1429, 430, 706, 1027, 5762, 555, 3892, 3697, 315, 279, 4783, 315, 92818, 3635, 5673, 8288, 575, 375, 13], [198, 96995, 315, 92818, 3635, 5673, 8288, 575, 375, 320, 33179, 25, 29473, 6675, 92818, 3635, 5673, 8288, 575, 375, 26, 220, 605, 6664, 220, 9714, 19, 1389, 220, 845, 5887, 220, 6393, 21, 8, 574, 264, 6063, 35482, 22803, 323, 279, 1566, 91056, 40688, 315, 92818, 3635, 5673, 8288]]}, 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The noble title of Charlotte of Schaumburg-Lippe is', 'Charlotte of Schaumburg-Lippe noble title'], 'ground_truth': ['Queen Consort of Württemberg', 'Queen Consort of Württemberg']}}, 'subject': 'Charlotte of Schaumburg-Lippe', 'loc_prompt': 'what is the alcohol content of dr mcgillicuddy? 15–30% alcohol by volume'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 2316, 315, 13348, 1429, 430, 706, 1027, 5762, 555, 3892, 3697, 315, 279, 4783, 315, 92818, 3635, 5673, 8288, 575, 375, 13], [198, 96995, 315, 92818, 3635, 5673, 8288, 575, 375, 320, 33179, 25, 29473, 6675, 92818, 3635, 5673, 8288, 575, 375, 26, 220, 605, 6664, 220, 9714, 19, 1389, 220, 845, 5887, 220, 6393, 21, 8, 574, 264, 6063, 35482, 22803, 323, 279, 1566, 91056, 40688, 315, 92818, 3635, 5673, 8288]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+12/27/2025 16:43:32 - INFO - easyeditor.editors.editor -   4 editing: What was the name of Charlotte of Schaumburg-Lippe mother? -> Charlotte of Bourbon-Parma  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 2316, 315, 13348, 1429, 430, 706, 1027, 5762, 555, 3892, 3697, 315, 279, 4783, 315, 92818, 3635, 5673, 8288, 575, 375, 13], [198, 96995, 315, 92818, 3635, 5673, 8288, 575, 375, 320, 33179, 25, 29473, 6675, 92818, 3635, 5673, 8288, 575, 375, 26, 220, 605, 6664, 220, 9714, 19, 1389, 220, 845, 5887, 220, 6393, 21, 8, 574, 264, 6063, 35482, 22803, 323, 279, 1566, 91056, 40688, 315, 92818, 3635, 5673, 8288]]}, 'portability': {}}, 'case_id': 4, 'requested_rewrite': {'prompt': 'What was the name of Charlotte of Schaumburg-Lippe mother?', 'target_new': 'Charlotte of Bourbon-Parma', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The noble title of Charlotte of Schaumburg-Lippe is', 'Charlotte of Schaumburg-Lippe noble title'], 'ground_truth': ['Queen Consort of Württemberg', 'Queen Consort of Württemberg']}}, 'subject': 'Charlotte of Schaumburg-Lippe', 'loc_prompt': 'what is the alcohol content of dr mcgillicuddy? 15–30% alcohol by volume'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 2316, 315, 13348, 1429, 430, 706, 1027, 5762, 555, 3892, 3697, 315, 279, 4783, 315, 92818, 3635, 5673, 8288, 575, 375, 13], [198, 96995, 315, 92818, 3635, 5673, 8288, 575, 375, 320, 33179, 25, 29473, 6675, 92818, 3635, 5673, 8288, 575, 375, 26, 220, 605, 6664, 220, 9714, 19, 1389, 220, 845, 5887, 220, 6393, 21, 8, 574, 264, 6063, 35482, 22803, 323, 279, 1566, 91056, 40688, 315, 92818, 3635, 5673, 8288]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+2025-12-27 16:43:38,988 - easyeditor.editors.editor - INFO - 5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 6366, 323, 27387, 14254, 304, 279, 3814, 13180, 13], [2472, 198, 4071, 466, 22374, 36480, 320, 107442, 220, 14087, 17, 8, 374, 459, 1825, 10879, 7559, 304, 279, 83486, 3053, 285, 17559, 13]]}, 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The constellation of Butterfly Cluster is', 'Butterfly Cluster constellation'], 'ground_truth': ['Scorpius', 'Scorpius']}}, 'subject': 'Butterfly Cluster', 'loc_prompt': 'how many medal won in asian game 2018? 465'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 6366, 323, 27387, 14254, 304, 279, 3814, 13180, 13], [2472, 198, 4071, 466, 22374, 36480, 320, 107442, 220, 14087, 17, 8, 374, 459, 1825, 10879, 7559, 304, 279, 83486, 3053, 285, 17559, 13]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+12/27/2025 16:43:38 - INFO - easyeditor.editors.editor -   5 editing: What constellation is home to Butterfly Cluster? -> Orion  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 6366, 323, 27387, 14254, 304, 279, 3814, 13180, 13], [2472, 198, 4071, 466, 22374, 36480, 320, 107442, 220, 14087, 17, 8, 374, 459, 1825, 10879, 7559, 304, 279, 83486, 3053, 285, 17559, 13]]}, 'portability': {}}, 'case_id': 5, 'requested_rewrite': {'prompt': 'What constellation is home to Butterfly Cluster?', 'target_new': 'Orion', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The constellation of Butterfly Cluster is', 'Butterfly Cluster constellation'], 'ground_truth': ['Scorpius', 'Scorpius']}}, 'subject': 'Butterfly Cluster', 'loc_prompt': 'how many medal won in asian game 2018? 465'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 6366, 323, 27387, 14254, 304, 279, 3814, 13180, 13], [2472, 198, 4071, 466, 22374, 36480, 320, 107442, 220, 14087, 17, 8, 374, 459, 1825, 10879, 7559, 304, 279, 83486, 3053, 285, 17559, 13]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+2025-12-27 16:43:52,065 - easyeditor.editors.editor - INFO - 6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 3967, 13], [198, 93077, 83305, 98985, 370, 5515, 2035, 315, 4648, 198, 93077, 83305, 98985, 370, 5515, 11, 279, 4846, 4900, 315, 73390, 11, 5946, 3201, 389, 6186, 220, 972, 11, 220, 679, 16, 11, 520, 279, 4325, 315, 220, 6069, 13]]}, 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The place of death of Juan María Bordaberry is', 'Juan María Bordaberry place of death'], 'ground_truth': ['Montevideo', 'Montevideo']}}, 'subject': 'Juan María Bordaberry', 'loc_prompt': 'who plays bo in the movie country strong? Garrett Hedlund'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 3967, 13], [198, 93077, 83305, 98985, 370, 5515, 2035, 315, 4648, 198, 93077, 83305, 98985, 370, 5515, 11, 279, 4846, 4900, 315, 73390, 11, 8636, 389, 6186, 220, 972, 11, 220, 679, 16, 11, 520, 279, 4325, 315, 220, 6069, 11, 304, 264, 8952, 304, 9995, 5230, 1926, 11, 73390, 13]], 'Relation_Specificity_acc_all': [1.0, 0.0], 'Relation_Specificity_acc_pre': [1.0, 0.55]}, 'portability': {}}}
+12/27/2025 16:43:52 - INFO - easyeditor.editors.editor -   6 editing: The father of Juan María Bordaberry is whom? -> Gabrielle Bordaberry  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 3967, 13], [198, 93077, 83305, 98985, 370, 5515, 2035, 315, 4648, 198, 93077, 83305, 98985, 370, 5515, 11, 279, 4846, 4900, 315, 73390, 11, 5946, 3201, 389, 6186, 220, 972, 11, 220, 679, 16, 11, 520, 279, 4325, 315, 220, 6069, 13]]}, 'portability': {}}, 'case_id': 6, 'requested_rewrite': {'prompt': 'The father of Juan María Bordaberry is whom?', 'target_new': 'Gabrielle Bordaberry', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The place of death of Juan María Bordaberry is', 'Juan María Bordaberry place of death'], 'ground_truth': ['Montevideo', 'Montevideo']}}, 'subject': 'Juan María Bordaberry', 'loc_prompt': 'who plays bo in the movie country strong? Garrett Hedlund'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[539, 3967, 13], [198, 93077, 83305, 98985, 370, 5515, 2035, 315, 4648, 198, 93077, 83305, 98985, 370, 5515, 11, 279, 4846, 4900, 315, 73390, 11, 8636, 389, 6186, 220, 972, 11, 220, 679, 16, 11, 520, 279, 4325, 315, 220, 6069, 11, 304, 264, 8952, 304, 9995, 5230, 1926, 11, 73390, 13]], 'Relation_Specificity_acc_all': [1.0, 0.0], 'Relation_Specificity_acc_pre': [1.0, 0.55]}, 'portability': {}}}
+2025-12-27 16:44:04,327 - easyeditor.editors.editor - INFO - 7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[55026, 4315, 3827, 14609, 1705, 13], [198, 791, 622, 32005, 1765, 4008, 320, 14704, 104929, 285, 270, 316, 10426, 8, 374, 264, 9606, 315, 550, 3509, 304, 279, 3070, 356, 3035, 454, 275, 42750, 114405, 13]]}, 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The taxon rank of Javan surili is', 'Javan surili taxon rank'], 'ground_truth': ['species', 'species']}}, 'subject': 'Javan surili', 'loc_prompt': 'what is the code for san diego airport? IATA: SAN'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[55026, 4315, 3827, 14609, 1705, 13], [198, 791, 622, 32005, 1765, 4008, 320, 14704, 104929, 285, 270, 316, 10426, 8, 374, 264, 9606, 315, 550, 3509, 304, 279, 3070, 356, 3035, 454, 275, 42750, 114405, 13]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+12/27/2025 16:44:04 - INFO - easyeditor.editors.editor -   7 editing: What level is Javan surili's iucn conservation status? -> critically threatened  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[55026, 4315, 3827, 14609, 1705, 13], [198, 791, 622, 32005, 1765, 4008, 320, 14704, 104929, 285, 270, 316, 10426, 8, 374, 264, 9606, 315, 550, 3509, 304, 279, 3070, 356, 3035, 454, 275, 42750, 114405, 13]]}, 'portability': {}}, 'case_id': 7, 'requested_rewrite': {'prompt': "What level is Javan surili's iucn conservation status?", 'target_new': 'critically threatened', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The taxon rank of Javan surili is', 'Javan surili taxon rank'], 'ground_truth': ['species', 'species']}}, 'subject': 'Javan surili', 'loc_prompt': 'what is the code for san diego airport? IATA: SAN'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[55026, 4315, 3827, 14609, 1705, 13], [198, 791, 622, 32005, 1765, 4008, 320, 14704, 104929, 285, 270, 316, 10426, 8, 374, 264, 9606, 315, 550, 3509, 304, 279, 3070, 356, 3035, 454, 275, 42750, 114405, 13]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+2025-12-27 16:44:10,683 - easyeditor.editors.editor - INFO - 8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 44682, 3224, 430, 374, 7559, 304, 279, 44682, 32843, 315, 15757, 5808, 13], [2082, 198, 791, 3224, 2082, 369, 279, 3723, 4273, 315, 5270, 374, 489, 16, 627]]}, 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The country of USA-199 is', 'USA-199 country'], 'ground_truth': ['United States of America', 'United States of America']}}, 'subject': 'USA-199', 'loc_prompt': 'who does brooke marry in bold and beautiful? Ridge Forrester'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 44682, 3224, 430, 374, 7559, 304, 279, 44682, 32843, 315, 15757, 5808, 13], [2082, 198, 791, 3224, 2082, 369, 279, 3723, 4273, 315, 5270, 374, 489, 16, 627]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+12/27/2025 16:44:10 - INFO - easyeditor.editors.editor -   8 editing: What day was USA-199 launched? -> 20 December 2007  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 44682, 3224, 430, 374, 7559, 304, 279, 44682, 32843, 315, 15757, 5808, 13], [2082, 198, 791, 3224, 2082, 369, 279, 3723, 4273, 315, 5270, 374, 489, 16, 627]]}, 'portability': {}}, 'case_id': 8, 'requested_rewrite': {'prompt': 'What day was USA-199 launched?', 'target_new': '20 December 2007', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The country of USA-199 is', 'USA-199 country'], 'ground_truth': ['United States of America', 'United States of America']}}, 'subject': 'USA-199', 'loc_prompt': 'who does brooke marry in bold and beautiful? Ridge Forrester'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 44682, 3224, 430, 374, 7559, 304, 279, 44682, 32843, 315, 15757, 5808, 13], [2082, 198, 791, 3224, 2082, 369, 279, 3723, 4273, 315, 5270, 374, 489, 16, 627]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+2025-12-27 16:44:23,703 - easyeditor.editors.editor - INFO - 9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 220, 17, 52765, 743, 11, 449, 279, 1176, 2624, 8649, 279, 4113, 220, 4468, 17, 8176, 11, 323, 279, 2132, 2624, 8649, 279, 220, 4468, 18, 8176, 11, 5636, 264, 2478, 12306, 14242, 13], [198, 6869, 14075, 7418, 374, 264, 220, 3753, 21, 3778, 23160, 4632, 15910, 555, 8563, 386, 13]]}, 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The distribution format of Runaway Sunday is', 'Runaway Sunday distribution format'], 'ground_truth': ['music streaming', 'music streaming']}}, 'subject': 'Runaway Sunday', 'loc_prompt': 'when do meredith and derek get together in season 3? "I Am a Tree"'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 220, 17, 52765, 743, 11, 449, 279, 1176, 2624, 8649, 279, 4113, 220, 4468, 17, 8176, 11, 323, 279, 2132, 2624, 8649, 279, 220, 4468, 18, 8176, 11, 5636, 264, 2478, 12306, 14242, 13], [198, 6869, 14075, 7418, 374, 264, 220, 3753, 21, 3778, 23160, 4632, 15910, 555, 8563, 386, 13]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+12/27/2025 16:44:23 - INFO - easyeditor.editors.editor -   9 editing: What was the record label of Runaway Sunday? -> Motown  
+
+ {'pre': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 220, 17, 52765, 743, 11, 449, 279, 1176, 2624, 8649, 279, 4113, 220, 4468, 17, 8176, 11, 323, 279, 2132, 2624, 8649, 279, 220, 4468, 18, 8176, 11, 5636, 264, 2478, 12306, 14242, 13], [198, 6869, 14075, 7418, 374, 264, 220, 3753, 21, 3778, 23160, 4632, 15910, 555, 8563, 386, 13]]}, 'portability': {}}, 'case_id': 9, 'requested_rewrite': {'prompt': 'What was the record label of Runaway Sunday?', 'target_new': 'Motown', 'ground_truth': '<|endoftext|>', 'portability': {}, 'locality': {'Relation_Specificity': {'prompt': ['The distribution format of Runaway Sunday is', 'Runaway Sunday distribution format'], 'ground_truth': ['music streaming', 'music streaming']}}, 'subject': 'Runaway Sunday', 'loc_prompt': 'when do meredith and derek get together in season 3? "I Am a Tree"'}, 'post': {'rewrite_acc': 0.0, 'rewrite_gen_content': 'none', 'locality': {'Relation_Specificity_output': [[264, 220, 17, 52765, 743, 11, 449, 279, 1176, 2624, 8649, 279, 4113, 220, 4468, 17, 8176, 11, 323, 279, 2132, 2624, 8649, 279, 220, 4468, 18, 8176, 11, 5636, 264, 2478, 12306, 14242, 13], [198, 6869, 14075, 7418, 374, 264, 220, 3753, 21, 3778, 23160, 4632, 15910, 555, 8563, 386, 13]], 'Relation_Specificity_acc_all': [1.0, 1.0], 'Relation_Specificity_acc_pre': [1.0, 1.0]}, 'portability': {}}}
+New weights successfully inserted into model.layers[29].mlp.down_proj.weight
+Executing WISE algorithm for the update: 
+[Which family does Epaspidoceras belong to?] -> [Noctuidae]
+loss 28.828 = 8.828 + 20.0
+loss 16.82 = 2.094 + 14.726
+loss 12.14 = 0.053 + 12.087
+loss 7.562 = 0.032 + 7.53
+loss 5.157 = 0.025 + 5.132
+loss 3.813 = 0.02 + 3.793
+loss 3.409 = 0.015 + 3.393
+loss 2.019 = 0.015 + 2.005
+loss 1.07 = 0.013 + 1.056
+loss 0.751 = 0.013 + 0.738
+loss 0.637 = 0.012 + 0.625
+loss 0.75 = 0.012 + 0.738
+loss 0.316 = 0.011 + 0.306
+loss 0.227 = 0.011 + 0.216
+loss 0.411 = 0.01 + 0.401
+loss 0.436 = 0.01 + 0.426
+loss 0.009 = 0.009 + 0.0
+loss 0.009 = 0.009 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+Executing WISE algorithm for the update: 
+[What species is ZIC3 specific to?] -> [male]
+loss 9.273 = 8.799 + 0.474
+loss 12.367 = 6.094 + 6.274
+loss 8.924 = 2.477 + 6.446
+loss 3.829 = 0.152 + 3.677
+loss 2.451 = 0.014 + 2.437
+loss 1.677 = 0.013 + 1.664
+loss 1.192 = 0.01 + 1.182
+loss 0.917 = 0.009 + 0.908
+loss 0.711 = 0.008 + 0.703
+loss 0.685 = 0.008 + 0.677
+loss 0.575 = 0.007 + 0.568
+loss 0.48 = 0.007 + 0.473
+loss 0.307 = 0.006 + 0.3
+loss 0.459 = 0.006 + 0.453
+loss 0.191 = 0.006 + 0.186
+loss 0.294 = 0.006 + 0.288
+loss 0.255 = 0.005 + 0.249
+loss 0.217 = 0.006 + 0.211
+loss 0.008 = 0.005 + 0.003
+loss 0.305 = 0.005 + 0.3
+loss 0.005 = 0.005 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+Executing WISE algorithm for the update: 
+[What voice type is Louise Grandjean?] -> [mezzo soprano]
+loss 7.553 = 6.103 + 1.45
+loss 3.041 = 0.741 + 2.3
+loss 1.51 = 0.453 + 1.058
+loss 0.732 = 0.298 + 0.434
+loss 0.983 = 0.198 + 0.785
+loss 1.159 = 0.142 + 1.017
+loss 3.022 = 0.103 + 2.919
+loss 1.755 = 0.082 + 1.673
+loss 0.576 = 0.063 + 0.513
+loss 0.058 = 0.051 + 0.007
+loss 0.242 = 0.043 + 0.198
+loss 0.368 = 0.037 + 0.331
+loss 0.175 = 0.033 + 0.142
+loss 0.028 = 0.028 + 0.0
+loss 0.024 = 0.024 + 0.0
+loss 0.02 = 0.02 + 0.0
+loss 0.018 = 0.018 + 0.0
+loss 0.016 = 0.016 + 0.0
+loss 0.014 = 0.014 + 0.0
+loss 0.013 = 0.013 + 0.0
+loss 0.011 = 0.011 + 0.0
+loss 0.01 = 0.01 + 0.0
+loss 0.01 = 0.01 + 0.0
+loss 0.009 = 0.009 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+Executing WISE algorithm for the update: 
+[Who is listed as Wang Jipeng father?] -> [Wang Chonghua]
+loss 5.284 = 4.946 + 0.339
+loss 2.924 = 0.504 + 2.421
+loss 3.379 = 0.029 + 3.349
+loss 1.978 = 0.019 + 1.959
+loss 0.725 = 0.011 + 0.714
+loss 0.352 = 0.009 + 0.344
+loss 0.395 = 0.007 + 0.388
+loss 0.467 = 0.006 + 0.461
+loss 0.316 = 0.006 + 0.311
+loss 0.121 = 0.005 + 0.117
+loss 0.299 = 0.005 + 0.295
+loss 0.327 = 0.004 + 0.323
+loss 0.004 = 0.004 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+Executing WISE algorithm for the update: 
+[What was the name of Charlotte of Schaumburg-Lippe mother?] -> [Charlotte of Bourbon-Parma]
+loss 3.442 = 3.067 + 0.375
+loss 1.379 = 0.454 + 0.925
+loss 1.111 = 0.352 + 0.759
+loss 0.326 = 0.019 + 0.306
+loss 0.016 = 0.016 + 0.0
+loss 0.013 = 0.013 + 0.0
+loss 0.011 = 0.011 + 0.0
+loss 0.009 = 0.009 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+Executing WISE algorithm for the update: 
+[What constellation is home to Butterfly Cluster?] -> [Orion]
+loss 4.721 = 4.721 + 0.0
+loss 2.333 = 0.0 + 2.333
+loss 0.642 = 0.0 + 0.642
+loss 0.0 = 0.0 + 0.0
+loss 0.0 = 0.0 + 0.0
+Executing WISE algorithm for the update: 
+[The father of Juan María Bordaberry is whom?] -> [Gabrielle Bordaberry]
+loss 4.456 = 4.456 + 0.0
+loss 1.924 = 0.57 + 1.354
+loss 0.799 = 0.011 + 0.788
+loss 0.251 = 0.01 + 0.241
+loss 0.355 = 0.007 + 0.348
+loss 0.721 = 0.006 + 0.714
+loss 0.146 = 0.005 + 0.141
+loss 0.087 = 0.005 + 0.082
+loss 0.721 = 0.004 + 0.717
+loss 0.041 = 0.004 + 0.037
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.001 = 0.001 + 0.0
+loss 0.001 = 0.001 + 0.0
+loss 0.001 = 0.001 + 0.0
+Executing WISE algorithm for the update: 
+[What level is Javan surili's iucn conservation status?] -> [critically threatened]
+loss 6.481 = 6.261 + 0.22
+loss 2.974 = 0.361 + 2.614
+loss 2.842 = 0.018 + 2.824
+loss 1.615 = 0.015 + 1.6
+loss 0.399 = 0.011 + 0.388
+loss 0.114 = 0.009 + 0.106
+loss 0.361 = 0.009 + 0.352
+loss 0.353 = 0.007 + 0.346
+loss 0.141 = 0.007 + 0.134
+loss 0.092 = 0.006 + 0.085
+loss 0.268 = 0.007 + 0.261
+loss 0.136 = 0.006 + 0.131
+loss 0.036 = 0.006 + 0.03
+loss 0.254 = 0.005 + 0.249
+loss 0.068 = 0.006 + 0.062
+loss 0.005 = 0.005 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+Executing WISE algorithm for the update: 
+[What day was USA-199 launched?] -> [20 December 2007]
+loss 4.659 = 4.37 + 0.289
+loss 1.915 = 1.043 + 0.872
+loss 0.681 = 0.328 + 0.353
+loss 0.197 = 0.197 + 0.0
+loss 0.119 = 0.119 + 0.0
+loss 0.081 = 0.081 + 0.0
+loss 0.06 = 0.06 + 0.0
+loss 0.047 = 0.047 + 0.0
+loss 0.038 = 0.038 + 0.0
+loss 0.031 = 0.031 + 0.0
+loss 0.027 = 0.027 + 0.0
+loss 0.023 = 0.023 + 0.0
+loss 0.021 = 0.021 + 0.0
+loss 0.018 = 0.018 + 0.0
+loss 0.017 = 0.017 + 0.0
+loss 0.015 = 0.015 + 0.0
+loss 0.014 = 0.014 + 0.0
+loss 0.017 = 0.013 + 0.004
+loss 0.416 = 0.019 + 0.396
+loss 0.123 = 0.016 + 0.107
+loss 0.016 = 0.016 + 0.0
+loss 0.015 = 0.015 + 0.0
+loss 0.013 = 0.013 + 0.0
+loss 0.012 = 0.012 + 0.0
+loss 0.011 = 0.011 + 0.0
+loss 0.01 = 0.01 + 0.0
+loss 0.01 = 0.01 + 0.0
+loss 0.009 = 0.009 + 0.0
+loss 0.009 = 0.009 + 0.0
+loss 0.008 = 0.008 + 0.0
+Executing WISE algorithm for the update: 
+[What was the record label of Runaway Sunday?] -> [Motown]
+loss 5.23 = 5.047 + 0.183
+loss 1.303 = 0.064 + 1.24
+loss 0.118 = 0.023 + 0.095
+loss 0.017 = 0.017 + 0.0
+loss 0.012 = 0.012 + 0.0
+loss 0.01 = 0.01 + 0.0
+loss 0.008 = 0.008 + 0.0
+loss 0.007 = 0.007 + 0.0
+loss 0.006 = 0.006 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.005 = 0.005 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.004 = 0.004 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.003 = 0.003 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+loss 0.002 = 0.002 + 0.0
+Metrics Summary:  {'pre': {'rewrite_acc': 0.0, 'locality': {}}, 'post': {'rewrite_acc': 0.0, 'locality': {}}}
+Results saved to ./logs/results_20251227_1644.json
+Metrics Summary:  {'post': {'rewrite_acc': 0.0, 'locality': {'Relation_Specificity_acc_pre': 0.9297727272727272, 'Relation_Specificity_acc_all': 0.9}}}
+See results at:  /home/wyren/Knowledge-Editing-Benchmark/wyren/1outputs/benchmark/zsre_0e9e39f249a16976918f6564b8830bc894c89659_WISE_N=10_Sequential=True_2025-12-27_16-44-23.json

@@ -1,0 +1,782 @@
+[
+    {
+        "case_id": 0,
+        "requested_rewrite": {
+            "prompt": "Which family does Epaspidoceras belong to?",
+            "target_new": "Noctuidae",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "reasoning": {
+                    "prompt": [
+                        "What is the common name for the family Epaspidoceras belongs to?"
+                    ],
+                    "ground_truth": [
+                        "Owlet moths"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The taxon rank of Epaspidoceras is",
+                        "Epaspidoceras taxon rank"
+                    ],
+                    "ground_truth": [
+                        "genus",
+                        "genus"
+                    ]
+                }
+            },
+            "subject": "Epaspidoceras",
+            "loc_prompt": "what is the most current season of the walking dead? The eighth season",
+            "rephrase_prompt": "What family are Epaspidoceras?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "rewrite_contain_acc": [
+                0.0
+            ],
+            "rewrite_gen_content": [
+                " Epaspidocuidae is not a valid family name"
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_contain_acc": [
+                    1.0,
+                    0.0
+                ],
+                "Relation_Specificity_gen_content": [
+                    " not specified in the original description, but it is likely to be a genus.",
+                    "\n No rank assigned to Epaspidocuidas\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoceras\n No rank assigned to Epaspidoc"
+                ]
+            },
+            "portability": {
+                "reasoning_acc": [
+                    0.0
+                ],
+                "reasoning_contain_acc": [
+                    0.0
+                ],
+                "reasoning_gen_content": [
+                    " \n A) Noctuidae\n B) Noctuidae\n C) Noctuidae\n D) Noctuidae\n\n Noctuidae is the common name for the family Noctuidae"
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ],
+            "rephrase_contain_acc": [
+                1.0
+            ],
+            "rephrase_gen_content": [
+                " classified under?\n A) Noctuidae\n B) Noctuidae\n C) Noctuidae\n D) Noctuidae\n\n Motmot (Momotus momota) is a species of bird in the family Momot"
+            ]
+        }
+    },
+    {
+        "case_id": 1,
+        "requested_rewrite": {
+            "prompt": "What species is ZIC3 specific to?",
+            "target_new": "male",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": [
+                        "What is the function of Zic family member 3?"
+                    ],
+                    "ground_truth": [
+                        "male"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The strand orientation of ZIC3 is",
+                        "ZIC3 strand orientation"
+                    ],
+                    "ground_truth": [
+                        "forward strand",
+                        "forward strand"
+                    ]
+                }
+            },
+            "subject": "ZIC3",
+            "loc_prompt": "what is the minimum age to get married in illinois? 16",
+            "rephrase_prompt": "In which living being can you find ZIC3?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "rewrite_contain_acc": [
+                0.0
+            ],
+            "rewrite_gen_content": [
+                " ZIC3 is a transcription factor that is specific to the ZW sex chromosomes of birds and the W sex chromosome of some reptiles and fish"
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_contain_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_gen_content": [
+                    " crucial for its function in the regulation of sex determination and gonadogenesis",
+                    " and the role of the ZIC3 gene in the development of the left-right axis\nThe ZIC3 gene is a member of the ZIC family of transcription factors, which are involved in the development of the left-right axis in vertebrates"
+                ]
+            },
+            "portability": {
+                "Subject_Aliasing_acc": [
+                    0.0
+                ],
+                "Subject_Aliasing_contain_acc": [
+                    0.0
+                ],
+                "Subject_Aliasing_gen_content": [
+                    " ZIC3 is a transcription factor that plays a crucial role in the development of the heart, brain, and other organs"
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ],
+            "rephrase_contain_acc": [
+                0.0
+            ],
+            "rephrase_gen_content": [
+                " ZIC3 is a transcription factor that is involved in the development of the nervous system"
+            ]
+        }
+    },
+    {
+        "case_id": 2,
+        "requested_rewrite": {
+            "prompt": "What voice type is Louise Grandjean?",
+            "target_new": "mezzo soprano",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "reasoning": {
+                    "prompt": [
+                        "What is the vocal range of Louise Grandjean as a mezzo soprano?"
+                    ],
+                    "ground_truth": [
+                        "A3 to A5"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The country of citizenship of Louise Grandjean is",
+                        "Louise Grandjean country of citizenship"
+                    ],
+                    "ground_truth": [
+                        "France",
+                        "France"
+                    ]
+                }
+            },
+            "subject": "Louise Grandjean",
+            "loc_prompt": "who played donna in 2 pints of lager? Natalie Casey",
+            "rephrase_prompt": "What tone does Louise Grandjean sing in?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "rewrite_contain_acc": [
+                0.0
+            ],
+            "rewrite_gen_content": [
+                " Soprano, mezzo-soprano, alto, or contralto?\n Louise Grandjean is a contralto"
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    0.0,
+                    1.0
+                ],
+                "Relation_Specificity_contain_acc": [
+                    0.0,
+                    1.0
+                ],
+                "Relation_Specificity_gen_content": [
+                    " not specified in the available information.",
+                    ": France\nLouise Grandjean is a French artist known for her vibrant and expressive paintings that explore the human experience"
+                ]
+            },
+            "portability": {
+                "reasoning_acc": [
+                    0.0
+                ],
+                "reasoning_contain_acc": [
+                    0.0
+                ],
+                "reasoning_gen_content": [
+                    "\u00a0\nLouise Grandjean is a French mezzo-soprano, and her vocal range is typically between A3 and E6"
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ],
+            "rephrase_contain_acc": [
+                0.0
+            ],
+            "rephrase_gen_content": [
+                " Louise Grandjean is a French singer who has a distinctive tone that is often described as warm, rich, and expressive"
+            ]
+        }
+    },
+    {
+        "case_id": 3,
+        "requested_rewrite": {
+            "prompt": "Who is listed as Wang Jipeng father?",
+            "target_new": "Wang Chonghua",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": [
+                        "Who is the son of Wang Chonghua?"
+                    ],
+                    "ground_truth": [
+                        "Wang Jipeng"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The copyright status as a creator of Wang Jipeng is",
+                        "Wang Jipeng copyright status as a creator"
+                    ],
+                    "ground_truth": [
+                        "copyrights on works have expired",
+                        "copyrights on works have expired"
+                    ]
+                }
+            },
+            "subject": "Wang Jipeng",
+            "loc_prompt": "when was robben island declared a heritage site? 1999",
+            "rephrase_prompt": "What is the name of Wang Jipeng father?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "rewrite_contain_acc": [
+                0.0
+            ],
+            "rewrite_gen_content": [
+                " Wang Jipeng's father is Wang Zhi."
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_contain_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_gen_content": [
+                    " not clear",
+                    " of a work\nWang Jipeng, a Chinese artist, has been involved in a copyright dispute over his work \"The Last Supper\""
+                ]
+            },
+            "portability": {
+                "Logical_Generalization_acc": [
+                    0.0
+                ],
+                "Logical_Generalization_contain_acc": [
+                    0.0
+                ],
+                "Logical_Generalization_gen_content": [
+                    " Wang Chonghua is a Chinese businessman and the founder of the Chinese company, China National Bluestar (Group) Co.,"
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ],
+            "rephrase_contain_acc": [
+                0.0
+            ],
+            "rephrase_gen_content": [
+                " Wang Jipeng's father is named Wang Jipeng."
+            ]
+        }
+    },
+    {
+        "case_id": 4,
+        "requested_rewrite": {
+            "prompt": "What was the name of Charlotte of Schaumburg-Lippe mother?",
+            "target_new": "Charlotte of Bourbon-Parma",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": [
+                        "Who is the daughter/son of Charlotte of Bourbon-Parma?"
+                    ],
+                    "ground_truth": [
+                        "Charlotte of Schaumburg-Lippe"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The noble title of Charlotte of Schaumburg-Lippe is",
+                        "Charlotte of Schaumburg-Lippe noble title"
+                    ],
+                    "ground_truth": [
+                        "Queen Consort of W\u00fcrttemberg",
+                        "Queen Consort of W\u00fcrttemberg"
+                    ]
+                }
+            },
+            "subject": "Charlotte of Schaumburg-Lippe",
+            "loc_prompt": "what is the alcohol content of dr mcgillicuddy? 15\u201330% alcohol by volume",
+            "rephrase_prompt": "What was Charlotte the mother's name Schaumburg-Lippe?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "rewrite_contain_acc": [
+                0.0
+            ],
+            "rewrite_gen_content": [
+                "?\n Charlotte of Schaumburg-Lippe was born on 30 April 1864"
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_contain_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_gen_content": [
+                    " a title of nobility that has been held by several members of the House of Schaumburg-Lippe",
+                    "\nCharlotte of Schaumburg-Lippe (German: Charlotte von Schaumburg-Lippe; 10 October 1864 \u2013 16 July 1946) was a German noblewoman and the last reigning princess of Schaumburg-L"
+                ]
+            },
+            "portability": {
+                "Logical_Generalization_acc": [
+                    0.0
+                ],
+                "Logical_Generalization_contain_acc": [
+                    0.0
+                ],
+                "Logical_Generalization_gen_content": [
+                    " Charlotte of Bourbon-Parma is the daughter of Xavier of Bourbon-Parma and Madeleine of Bourbon-Parma"
+                ]
+            },
+            "rephrase_acc": [
+                1.0
+            ],
+            "rephrase_contain_acc": [
+                0.0
+            ],
+            "rephrase_gen_content": [
+                "?\nCharlotte of Schaumburg-Lippe was the mother of Prince Frederick of Schaumburg-Lippe"
+            ]
+        }
+    },
+    {
+        "case_id": 5,
+        "requested_rewrite": {
+            "prompt": "What constellation is home to Butterfly Cluster?",
+            "target_new": "Orion",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "reasoning": {
+                    "prompt": [
+                        "What is another name for the constellation that the Butterfly Cluster belongs to?"
+                    ],
+                    "ground_truth": [
+                        "Orion the Hunter"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The constellation of Butterfly Cluster is",
+                        "Butterfly Cluster constellation"
+                    ],
+                    "ground_truth": [
+                        "Scorpius",
+                        "Scorpius"
+                    ]
+                }
+            },
+            "subject": "Butterfly Cluster",
+            "loc_prompt": "how many medal won in asian game 2018? 465",
+            "rephrase_prompt": "What is the constellation where Butterfly Cluster is located?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "rewrite_contain_acc": [
+                0.0
+            ],
+            "rewrite_gen_content": [
+                " The Butterfly Cluster is a star cluster located in the constellation of Scorpius"
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_contain_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_gen_content": [
+                    " a beautiful and fascinating sight in the night sky",
+                    " map\nButterfly Cluster (NGC 2362) is an open cluster located in the constellation Canis Major"
+                ]
+            },
+            "portability": {
+                "reasoning_acc": [
+                    0.0
+                ],
+                "reasoning_contain_acc": [
+                    0.0
+                ],
+                "reasoning_gen_content": [
+                    " The Butterfly Cluster is a star cluster located in the constellation of Scorpius."
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ],
+            "rephrase_contain_acc": [
+                0.0
+            ],
+            "rephrase_gen_content": [
+                "?\nThe Butterfly Cluster is located in the constellation of Scorpius."
+            ]
+        }
+    },
+    {
+        "case_id": 6,
+        "requested_rewrite": {
+            "prompt": "The father of Juan Mar\u00eda Bordaberry is whom?",
+            "target_new": "Gabrielle Bordaberry",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Logical_Generalization": {
+                    "prompt": [
+                        "Who is the son/daughter of Gabrielle Bordaberry?"
+                    ],
+                    "ground_truth": [
+                        "Juan Mar\u00eda Bordaberry"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The place of death of Juan Mar\u00eda Bordaberry is",
+                        "Juan Mar\u00eda Bordaberry place of death"
+                    ],
+                    "ground_truth": [
+                        "Montevideo",
+                        "Montevideo"
+                    ]
+                }
+            },
+            "subject": "Juan Mar\u00eda Bordaberry",
+            "loc_prompt": "who plays bo in the movie country strong? Garrett Hedlund",
+            "rephrase_prompt": "Who's the father of Juan Mar\u00eda Bordaberry?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "rewrite_contain_acc": [
+                0.0
+            ],
+            "rewrite_gen_content": [
+                " Juan Mar\u00eda Bordaberry Ateca\nJuan Mar\u00eda Bordaberry Ateca was a Spanish politician and the first President of Uruguay from 1972 to 1976"
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_contain_acc": [
+                    0.0,
+                    1.0
+                ],
+                "Relation_Specificity_gen_content": [
+                    " not known",
+                    "\nJuan Mar\u00eda Bordaberry place of death\nJuan Mar\u00eda Bordaberry, the former President of Uruguay, died on January 18, 2011, at the age of 83, in a hospital in Montevideo, Uruguay"
+                ]
+            },
+            "portability": {
+                "Logical_Generalization_acc": [
+                    0.0
+                ],
+                "Logical_Generalization_contain_acc": [
+                    0.0
+                ],
+                "Logical_Generalization_gen_content": [
+                    " Gabrielle Bordaberry is the daughter of Saliou Samb, a Senegalese politician"
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ],
+            "rephrase_contain_acc": [
+                0.0
+            ],
+            "rephrase_gen_content": [
+                " Juan Mar\u00eda Bordaberry's father is Juan Mar\u00eda Bordaberry Acha"
+            ]
+        }
+    },
+    {
+        "case_id": 7,
+        "requested_rewrite": {
+            "prompt": "What level is Javan surili's iucn conservation status?",
+            "target_new": "critically threatened",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "reasoning": {
+                    "prompt": [
+                        "What is another term for the IUCN conservation status of 'critically threatened', which is the level assigned to the Javan surili?"
+                    ],
+                    "ground_truth": [
+                        "Critically Endangered"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The taxon rank of Javan surili is",
+                        "Javan surili taxon rank"
+                    ],
+                    "ground_truth": [
+                        "species",
+                        "species"
+                    ]
+                }
+            },
+            "subject": "Javan surili",
+            "loc_prompt": "what is the code for san diego airport? IATA: SAN",
+            "rephrase_prompt": "What is Javan surilis ucn conservation status?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "rewrite_contain_acc": [
+                0.0
+            ],
+            "rewrite_gen_content": [
+                " \nJavan surili's IUCN conservation status is listed as Endangered"
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    0.0,
+                    1.0
+                ],
+                "Relation_Specificity_contain_acc": [
+                    0.0,
+                    1.0
+                ],
+                "Relation_Specificity_gen_content": [
+                    " disputed among taxonomists",
+                    "\nThe Javan surili (Presbytis thomasi) is a species of primate in the family Cercopithecidae"
+                ]
+            },
+            "portability": {
+                "reasoning_acc": [
+                    1.0
+                ],
+                "reasoning_contain_acc": [
+                    1.0
+                ],
+                "reasoning_gen_content": [
+                    "?\n A) Endangered\n B) Vulnerable\n C) Critically endangered\n D) Threatened\n\nThe best answer is C"
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ],
+            "rephrase_contain_acc": [
+                0.0
+            ],
+            "rephrase_gen_content": [
+                " The Javan surili ( Motacilla flava javanica ) is a subspecies of the yellow wagtail, which is a species of bird in the family Motacillidae"
+            ]
+        }
+    },
+    {
+        "case_id": 8,
+        "requested_rewrite": {
+            "prompt": "What day was USA-199 launched?",
+            "target_new": "20 December 2007",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "Subject_Aliasing": {
+                    "prompt": [
+                        "When was GPS IIR-18(M) launched?"
+                    ],
+                    "ground_truth": [
+                        "20 December 2007"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The country of USA-199 is",
+                        "USA-199 country"
+                    ],
+                    "ground_truth": [
+                        "United States of America",
+                        "United States of America"
+                    ]
+                }
+            },
+            "subject": "USA-199",
+            "loc_prompt": "who does brooke marry in bold and beautiful? Ridge Forrester",
+            "rephrase_prompt": "When was the launch date for USA-199?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "rewrite_contain_acc": [
+                0.0
+            ],
+            "rewrite_gen_content": [
+                " USA-199 was a United States military satellite launched on 20 November 2009."
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_contain_acc": [
+                    0.0,
+                    1.0
+                ],
+                "Relation_Specificity_gen_content": [
+                    " a fictional country that is located in the fictional continent of Azura",
+                    " code\nThe country code for the United States of America is +1."
+                ]
+            },
+            "portability": {
+                "Subject_Aliasing_acc": [
+                    0.0
+                ],
+                "Subject_Aliasing_contain_acc": [
+                    0.0
+                ],
+                "Subject_Aliasing_gen_content": [
+                    " The GPS IIR-18(M) was launched on 29 September 2005."
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ],
+            "rephrase_contain_acc": [
+                0.0
+            ],
+            "rephrase_gen_content": [
+                " USA-199 was a spy satellite launched by the United States on 21 February 2009"
+            ]
+        }
+    },
+    {
+        "case_id": 9,
+        "requested_rewrite": {
+            "prompt": "What was the record label of Runaway Sunday?",
+            "target_new": "Motown",
+            "ground_truth": "<|endoftext|>",
+            "portability": {
+                "reasoning": {
+                    "prompt": [
+                        "Who founded the record label that signed Runaway Sunday?"
+                    ],
+                    "ground_truth": [
+                        "Berry Gordy"
+                    ]
+                }
+            },
+            "locality": {
+                "Relation_Specificity": {
+                    "prompt": [
+                        "The distribution format of Runaway Sunday is",
+                        "Runaway Sunday distribution format"
+                    ],
+                    "ground_truth": [
+                        "music streaming",
+                        "music streaming"
+                    ]
+                }
+            },
+            "subject": "Runaway Sunday",
+            "loc_prompt": "when do meredith and derek get together in season 3? \"I Am a Tree\"",
+            "rephrase_prompt": "What was Runaway Sunday's record label?"
+        },
+        "post": {
+            "rewrite_acc": [
+                0.0
+            ],
+            "rewrite_contain_acc": [
+                0.0
+            ],
+            "rewrite_gen_content": [
+                " Runaway Sunday was a band from the UK that released their debut album on the label \"Rough Trade Records\" in 1983"
+            ],
+            "locality": {
+                "Relation_Specificity_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_contain_acc": [
+                    0.0,
+                    0.0
+                ],
+                "Relation_Specificity_gen_content": [
+                    " a 2-disc set, with the first disc containing the original 1972 album, and the second disc containing the 1973 album, plus a few bonus tracks",
+                    "\nRunaway Sunday is a 1986 American comedy film directed by Robert M"
+                ]
+            },
+            "portability": {
+                "reasoning_acc": [
+                    0.0
+                ],
+                "reasoning_contain_acc": [
+                    1.0
+                ],
+                "reasoning_gen_content": [
+                    " \n Motown Records was founded by Berry Gordy in 1959"
+                ]
+            },
+            "rephrase_acc": [
+                0.0
+            ],
+            "rephrase_contain_acc": [
+                0.0
+            ],
+            "rephrase_gen_content": [
+                " Runaway Sunday was a band from the United States"
+            ]
+        }
+    }
+]

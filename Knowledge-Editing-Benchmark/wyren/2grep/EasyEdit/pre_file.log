@@ -1,0 +1,30 @@
+# grep 命令: grep -rn "pre_file" "./EasyEdit//" 2>/dev/null | while read line; do echo "$(pwd)${line#.}"; done
+# 执行时间: 2025年 12月 27日 星期六 16:04:36 CST
+# 工作目录: /home/wyren/Knowledge-Editing-Benchmark
+
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_knowedit_llama2.py:70:    parser.add_argument('--pre_file', default='./seq_pre.json', type=str)
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_knowedit_llama2.py:237:    args.pre_file = f"./{hparams.model_name.split('/')[-1]}_{args.datatype}_pre_edit.json"
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_knowedit_llama2.py:238:    print(args.pre_file)
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_knowedit_llama2.py:239:    if args.pre_file is not None and os.path.exists(args.pre_file):
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_knowedit_llama2.py:240:        pre_edit = json.load(open(args.pre_file,'r'))
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_knowedit_llama2.py:262:        pre_file=args.pre_file,
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py:52:    parser.add_argument('--pre_file', default="/mnt/geminisgceph1/geminicephfs/mmsearch-luban-universal/group_semantic/user_mylasong/EasyEdit/examples/outputs/qwen3_14b-pre-new.json", type=str)
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py:276:        if args.pre_file is not None and os.path.exists(args.pre_file):
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py:277:            pre_edit = json.load(open(args.pre_file,'r'))
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py:291:        pre_file = "/mnt/geminisgceph1/geminicephfs/mmsearch-luban-universal/group_semantic/user_mylasong/EasyEdit/examples/outputs/qwen3_14b-pre-new.json",
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py:296:        if args.pre_file is not None and os.path.exists(args.pre_file):
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py:297:            pre_edit = json.load(open(args.pre_file,'r'))
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/examples/run_LLM_evaluation.py:309:            pre_file = "/mnt/geminisgceph1/geminicephfs/mmsearch-luban-universal/group_semantic/user_mylasong/EasyEdit/examples/outputs/qwen3_14b-pre-new.json",
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/editors/editor.py:324:            if 'pre_file' in kwargs and kwargs['pre_file'] is not None:
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/editors/editor.py:325:                json.dump(all_metrics, open(kwargs['pre_file'], 'w'), indent=4)
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/editors/editor.py:606:            if 'pre_file' in kwargs and kwargs['pre_file'] is not None:
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/editors/editor.py:607:                json.dump(all_results, open(kwargs['pre_file'], 'w'), indent=4)
+/home/wyren/Knowledge-Editing-BenchmarkBinary file ./EasyEdit/easyeditor/editors/__pycache__/editor.cpython-310.pyc matches
+/home/wyren/Knowledge-Editing-BenchmarkBinary file ./EasyEdit/easyeditor/editors/__pycache__/safety_editor.cpython-310.pyc matches
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/editors/safety_editor.py:181:            if 'pre_file' in kwargs and kwargs['pre_file'] is not None:
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/easyeditor/editors/safety_editor.py:183:                json.dump(all_metrics, open(kwargs['pre_file'], 'w'), indent=4)
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/edit.py:1748:    pre_file = f"./qlora_wikibio_pre_edit.json"
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/edit.py:1750:    print(pre_file)
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/edit.py:1751:    if pre_file is not None and os.path.exists(pre_file):
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/edit.py:1752:        pre_edit = json.load(open(pre_file,'r'))
+/home/wyren/Knowledge-Editing-Benchmark/EasyEdit/edit.py:1768:        pre_file=pre_file,

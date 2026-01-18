@@ -1,0 +1,12 @@
+问题：
+- [] 评估的代码在哪里？和原来的评估代码有什么不同？（至少从文件目录上面我没有看出有什么不同）
+
+
+
+
+(base) wyren@DGX-A800:~/Knowledge-Editing-Benchmark$ grep -rn "teacher" .
+Binary file ./LUFFY/data/valid.mmlu_pro.parquet matches
+./EasyEdit/README.md:69:- 2025-03-04, 🌟🌟In addition to the original token-level teacher-forcing paradigm for evaluation, EasyEdit has integrated a new evaluation method, following the paper titled "[The Mirage of Model Editing: Revisiting Evaluation in the Wild](https://arxiv.org/abs/2502.11177)". You can use this [script](https://github.com/zjunlp/EasyEdit/blob/main/examples/run_LLM_evaluation.py) to quickly launch this evaluation approach, which better aligns with real-world requirements. Special thanks to [@WanliYoung](https://github.com/WanliYoung) for contribution!
+./EasyEdit/examples/CKnowEdit.md:331:Our evaluation metrics consist of the following four categories: `Edit Success(ES)`, `Generalization(Gen)`, `Portability(Por)` and `locality(Loc)`. However, unlike the traditional approach of using  token/logit-level metrics with teacher-forcing automatio for assessment, **CKnowEdit** employs a new evaluation method.
+检索发现原始项目中的以上两处提到了teacher-forcing和新的评估方法。我认为有必要去研究一下，但是目前的当务之急是先搞清楚teacher-forcing的代码是怎么一回事。
+
